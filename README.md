@@ -1,5 +1,6 @@
 ![I am Mern stack developer](https://i.ibb.co/5RZG3tv/Beige-Black-Geometric-Technology-Linked-In-Banner.jpg)
-### Hi there 👋, my name is Furqan Ahmad Rupom
+### Hi there,
+### my name is Furqan Ahmad Rupom
 #### I am Mern stack developer
 
 
@@ -9,7 +10,6 @@ With a focus on creating responsive web interfaces and implementing server-side 
 
 Skills: MONGODB/EXPRESS/TAILWINDCSS/BOOTSTRAP/PYTHON/C# / REACT / JS / HTML / CSS
 
-- 🔭 I’m currently working on this page. 
 - 🌱 I’m currently learning Express,mongodb 
 - 👯 I’m looking to collaborate on github 
 - 💬 Ask me about web developemnt 
