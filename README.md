@@ -10,7 +10,7 @@ With a focus on creating responsive web interfaces and implementing server-side 
 
 Skills: MONGODB/EXPRESS/TAILWINDCSS/BOOTSTRAP/PYTHON/C# / REACT / JS / HTML / CSS
 
-- 🌱 I’m currently learning Express,mongodb 
+- 🌱 I’m currently learning Next js
 - 👯 I’m looking to collaborate on github 
 - 💬 Ask me about web developemnt 
 
