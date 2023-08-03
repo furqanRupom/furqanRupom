@@ -1,4 +1,4 @@
-![I am Mern stack developer](https://i.ibb.co/5RZG3tv/Beige-Black-Geometric-Technology-Linked-In-Banner.jpg)
+![I am Mern stack developer](https://i.ibb.co/H7s6qDh/1689011804584.jpg)
 ### Hi there,
 ### my name is Furqan Ahmad Rupom
 #### I am Mern stack developer
