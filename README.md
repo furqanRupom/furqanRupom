@@ -1,5 +1,4 @@
-### Hi there 👋, my name is Furqan Ahmad
-#### I am MERN Stack Developer
+
 ![I am MERN Stack Developer](https://i.postimg.cc/d1vrVhT0/Neon-Minimalist-Motivational-Inspirational-Quote-Facebook-Cover-1.png)
 
 
