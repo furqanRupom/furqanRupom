@@ -2,9 +2,7 @@
 #### I am MERN Stack Developer
 ![I am MERN Stack Developer](https://i.postimg.cc/d1vrVhT0/Neon-Minimalist-Motivational-Inspirational-Quote-Facebook-Cover-1.png)
 
-I am a MERN stack developer with a strong passion for building user-friendly web applications. I enjoy taking on new challenges and expanding my skills in web development.
 
-With a focus on creating responsive web interfaces and implementing server-side functionalities, I am dedicated to delivering high-quality code and providing engaging user experiences.
 
 Skills: MongoDB  / Mongoose / TypeScrpt / Node JS  / Express JS /   Boostrap / TailwindCSS / Next JS / REACT / JS / HTML / CSS
 
