@@ -5,7 +5,8 @@
 <br>
 <br>
 
-<a href="https://app.daily.dev/furqan000" align="left"> <img width="200"  height="200" src="https://api.daily.dev/devcards/777631bdea504188883f9ebc5871e542.png?r=8pv" alt="furqanrupom" /> </p>
+<img align="right" width="400" alt="coding" src="https://media.tenor.com/flflC6GFzO8AAAAd/sultan-alrefaei-programmer.gif" />
+<img align="right" width="400" alt="coding" src="" />
 
 - 🔭 I’m currently working on [space scope-app](https://github.com/furqanRupom/space_scope-app)
 
