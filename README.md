@@ -4,7 +4,6 @@
 
 <br>
 <br>
-<img align="right" width="400" alt="coding" src="https://app.daily.dev/furqan000" />
 
 <a href="https://app.daily.dev/furqan000" align="left"> <img width="200"  height="200" src="https://api.daily.dev/devcards/777631bdea504188883f9ebc5871e542.png?r=8pv" alt="furqanrupom" /> </p>
 
