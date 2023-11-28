@@ -6,7 +6,7 @@
 <br>
 <img align="right" width="400" alt="coding" src="https://app.daily.dev/furqan000" />
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=furqanrupom&label=Profile%20views&color=0e75b6&style=flat" alt="furqanrupom" /> </p>
+<a href="https://app.daily.dev/furqan000" align="left"> <img src="https://api.daily.dev/devcards/777631bdea504188883f9ebc5871e542.png?r=8pv" alt="furqanrupom" /> </p>
 
 - 🔭 I’m currently working on [space scope-app](https://github.com/furqanRupom/space_scope-app)
 
