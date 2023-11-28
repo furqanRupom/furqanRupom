@@ -5,8 +5,9 @@
 <br>
 <br>
 
-<img align="right" width="400" alt="coding" src="https://media.tenor.com/flflC6GFzO8AAAAd/sultan-alrefaei-programmer.gif" />
-<img align="right" width="400" alt="coding" src="" />
+<div align="left">
+  <a href="https://app.daily.dev/furqan000"><img align="right" src="https://api.daily.dev/devcards/777631bdea504188883f9ebc5871e542.png?r=8pv" width="220" alt="Anas Mahmud's Dev Card"/></a>
+</div>
 
 - 🔭 I’m currently working on [space scope-app](https://github.com/furqanRupom/space_scope-app)
 
@@ -20,9 +21,6 @@
 
 - 📫 How to reach me **furqanrupom978@gmail.com**
 
-
-
-<br>
 <p align="left">
 
 <a href="https://linkedin.com/in/furqan-ahmad-6149ba281" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="furqan-ahmad-6149ba281" height="30" width="40" /></a>
