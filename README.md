@@ -4,7 +4,7 @@
 
 <br>
 <br>
-<img align="right" width="400" alt="coding" src="https://media.tenor.com/flflC6GFzO8AAAAd/sultan-alrefaei-programmer.gif" />
+<img align="right" width="400" alt="coding" src="https://app.daily.dev/furqan000" />
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=furqanrupom&label=Profile%20views&color=0e75b6&style=flat" alt="furqanrupom" /> </p>
 
@@ -24,12 +24,14 @@
 
 <br>
 <p align="left">
+
 <a href="https://linkedin.com/in/furqan-ahmad-6149ba281" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="furqan-ahmad-6149ba281" height="30" width="40" /></a>
 <a href="https://fb.com/fab.rupom" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="fab.rupom" height="30" width="40" /></a>
 <a href="https://instagram.com/fab_w00" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="fab_w00" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/furqanrupom978" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="furqanrupom978" height="30" width="40" /></a>
 </p>
 <br>
+
 
 <div align="center">
 
