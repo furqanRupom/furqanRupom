@@ -1,5 +1,5 @@
 
-![MERN Stack Development](https://i.ibb.co/K0tV2c3/Make-your-README.png)
+![MERN Stack Development](https://imagizer.imageshack.com/img922/8262/ziSoIn.png)
 
 
 <br>
