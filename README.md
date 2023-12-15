@@ -2,6 +2,8 @@
 ![MERN Stack Development](https://imagizer.imageshack.com/img922/8262/ziSoIn.png)
 
 
+
+
 <br>
 <br>
 
@@ -20,6 +22,7 @@
 - 💬 Ask me about **react,NextJS,typeScript,Prisma,MongoDB,PostgresSQL**
 
 - 📫 How to reach me **furqanrupom978@gmail.com**
+
 
 <p align="left">
 
@@ -89,6 +92,12 @@
 <br>
 <br>
 
+<p align="center">
+    <a href="https://wakatime.com/@Goblin8888">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=furqanrupom&theme=material-palenight&hide_border=true&hide_title=false&area=true&custom_title=Total%20contribution%20graph%20in%20all%20repo" width="95%" alt="activity graph">
+    </a>
+</p>
+<br>
 <div  align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=furqanrupom&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="180" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=furqanrupom&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="180" alt="languages graph"  />
