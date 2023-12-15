@@ -40,50 +40,94 @@
 <br>
 <br>
 <br>
- <p align="center">
-        <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="55" height="55" style="margin: 10px;" />
-        </a>
-        <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="55" height="55" style="margin: 10px;" />
-        </a>
-        <a href="https://expressjs.com" target="_blank" rel="noreferrer">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="55" height="55" style="margin: 10px;" />
-        </a>
-        <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="55" height="55" style="margin: 10px;" />
-        </a>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="55" height="55" style="margin: 10px;" />
-        </a>
-        <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="55" height="55" style="margin: 10px;" />
-        </a>
-        <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
-            <img src="https://cdn.worldvectorlogo.com/logos/nextjs-5.svg" alt="nextjs" width="55" height="55" style="margin: 10px;" />
-        </a>
-        <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="55" height="55" style="margin: 10px;" />
-        </a>
-        <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="55" height="55" style="margin: 10px;" />
-        </a>
-        <a href="https://www.python.org" target="_blank" rel="noreferrer">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="55" height="55" style="margin: 10px;" />
-        </a>
-        <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="55" height="55" style="margin: 10px;" />
-        </a>
-        <a href="https://redux.js.org" target="_blank" rel="noreferrer">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="55" height="55" style="margin: 10px;" />
-        </a>
-        <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
-            <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="55" height="55" style="margin: 10px;" />
-        </a>
-        <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="55" height="55" style="margin: 10px;" />
-        </a>
-    </p>
+<table align="center">
+  <tr>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />
+      <br>React
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
+      <br>JavaScript
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="65" height="65" />
+      <br>TypeScript
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" width="65" height="65" />
+      <br>MongoDB
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" width="65" height="65" />
+      <br>Node JS
+    </td>
+      <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="icon" width="65" height="65" />
+      <br>Rest API
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" width="65" height="65" />
+      <br>Next JS
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=express" alt="Express.js" width="65" height="65" />
+      <br>Express JS
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=vscode" alt="VSCode" width="65" height="65" />
+      <br>VSCode
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" alt="Firebase" />
+      <br>Firebase
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=appwrite" width="48" height="48" alt="Appwrite" />
+      <br>Appwrite
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=figma" width="48" height="48" alt="Figma" />
+      <br>Figma
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=netlify" width="48" height="48" alt="NextAuth" />
+      <br>Netlify
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=postgresql" width="48" height="48" alt="PostgreSQL" />
+      <br>PostgreSQL
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
+      <br>Python
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=prisma" width="48" height="48" alt="Prisma" />
+      <br>Prisma
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=tailwindcss" alt="Tailwind CSS" width="65" height="65" />
+      <br>Tailwind CSS
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=bootstrap" width="48" height="48" alt="Bootstrap" />
+      <br>Bootstrap
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5" />
+      <br>HTML5
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS" />
+      <br>CSS3
+    </td>
+  </tr>
+</table>
+
 </div>
 
 <br>
