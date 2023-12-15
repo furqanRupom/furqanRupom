@@ -93,14 +93,14 @@
 <br>
 
 <p align="center">
-    <a href="https://wakatime.com/@Goblin8888">
+    <a href="https://wakatime.com/@fab123">
         <img src="https://github-readme-activity-graph.vercel.app/graph?username=furqanrupom&theme=material-palenight&hide_border=true&hide_title=false&area=true&custom_title=Total%20contribution%20graph%20in%20all%20repo" width="95%" alt="activity graph">
     </a>
 </p>
 <br>
 <div  align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=furqanrupom&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="180" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=furqanrupom&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="180" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=furqanrupom&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=material-palenight&locale=en&hide_border=false" height="180" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=furqanrupom&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=material-palenight&hide_border=false" height="180" alt="languages graph"  />
 </div>
 <br>
 <br>
@@ -109,7 +109,7 @@
 
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=furqanrupom&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+  <img src="https://streak-stats.demolab.com?user=furqanrupom&locale=en&mode=daily&theme=material-palenight&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
 </div>
 
 
