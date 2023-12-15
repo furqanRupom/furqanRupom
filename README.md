@@ -1,5 +1,5 @@
 
-![MERN Stack Development](https://imagizer.imageshack.com/img922/8262/ziSoIn.png)
+![MERN Stack Development](https://i.ibb.co/X53N84F/github-header-image.png)
 
 
 
