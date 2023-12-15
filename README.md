@@ -7,21 +7,26 @@
 <br>
 <br>
 
-<div align="left">
-  <a href="https://app.daily.dev/furqan000"><img align="right" src="https://api.daily.dev/devcards/777631bdea504188883f9ebc5871e542.png?r=8pv" width="220" alt="Anas Mahmud's Dev Card"/></a>
+<div align="center">
+  <a href="https://app.daily.dev/furqan000">
+    <img align="right" src="https://api.daily.dev/devcards/777631bdea504188883f9ebc5871e542.png?r=8pv" width="220" alt="Furqan Rupom's Dev Card"/>
+  </a>
 </div>
 
-- 🔭 I’m currently working on [space scope-app](https://github.com/furqanRupom/space_scope-app)
+### Hey there! 🌟 I'm Furqan Rupom.
 
-- 🌱 I’m currently learning **Prisma,PostgresSQL**
+- 💡 Exploring the realms of code and creativity.
+- 🚀 Currently crafting [space scope-app](https://github.com/furqanRupom/space_scope-app).
+- 🌱 Learning the art of databases with **Prisma & PostgresSQL**.
+- 👯 Open to unique and exciting collaborations on GitHub.
+- 🌐 Explore my portfolio: [Furqan Ahmad Portfolio](https://furqanahmadportfolio.vercel.app/).
+- 💬 Let's talk about **React, NextJS, TypeScript, Prisma, MongoDB, PostgresSQL**.
+- 📧 Reach me at **furqanrupom978@gmail.com**.
 
-- 👯 I’m looking to collaborate on **Github**
 
-- 👨‍💻 All of my projects are available at [https://furqanahmadportfolio.vercel.app/](https://furqanahmadportfolio.vercel.app/)
+[![GitHub followers](https://img.shields.io/github/followers/furqanRupom?label=Follow&style=social)](https://github.com/furqanRupom)
 
-- 💬 Ask me about **react,NextJS,typeScript,Prisma,MongoDB,PostgresSQL**
 
-- 📫 How to reach me **furqanrupom978@gmail.com**
 
 
 <p align="left">
