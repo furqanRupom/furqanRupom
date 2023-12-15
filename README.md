@@ -35,23 +35,23 @@
 
 
 <div align="center">
+<br>
+<br>
+<br>
+<h1 align="center">Languages and Tools</h1>
 
-<h2 align="center">Languages and Tools</h3>
-<br>
-<br>
-<br>
 <table align="center">
   <tr>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />
+        <img src="https://skillicons.dev/icons?i=react" alt="React" width="65" height="65" />
       <br>React
     </td>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
+        <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="65" height="65" />
       <br>JavaScript
     </td>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="65" height="65" />
+        <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" width="65" height="65" />
       <br>TypeScript
     </td>
     <td align="center" width="96">
@@ -62,7 +62,7 @@
         <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" width="65" height="65" />
       <br>Node JS
     </td>
-      <td align="center" width="96">
+    <td align="center" width="96">
       <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="icon" width="65" height="65" />
       <br>Rest API
     </td>
@@ -80,53 +80,58 @@
   </tr>
   <tr>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" alt="Firebase" />
+        <img src="https://skillicons.dev/icons?i=firebase" width="65" height="65" alt="Firebase" />
       <br>Firebase
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=appwrite" width="48" height="48" alt="Appwrite" />
+        <img src="https://skillicons.dev/icons?i=appwrite" width="65" height="65" alt="Appwrite" />
       <br>Appwrite
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=figma" width="48" height="48" alt="Figma" />
+        <img src="https://skillicons.dev/icons?i=figma" width="65" height="65" alt="Figma" />
       <br>Figma
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=netlify" width="48" height="48" alt="NextAuth" />
+        <img src="https://skillicons.dev/icons?i=netlify" width="65" height="65" alt="NextAuth" />
       <br>Netlify
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=postgresql" width="48" height="48" alt="PostgreSQL" />
+        <img src="https://skillicons.dev/icons?i=postgresql" width="65" height="65" alt="PostgreSQL" />
       <br>PostgreSQL
     </td>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
+        <img src="https://skillicons.dev/icons?i=py" alt="Python" width="65" height="65" />
       <br>Python
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=prisma" width="48" height="48" alt="Prisma" />
+        <img src="https://skillicons.dev/icons?i=prisma" width="65" height="65" alt="Prisma" />
       <br>Prisma
     </td>
     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=tailwindcss" alt="Tailwind CSS" width="65" height="65" />
       <br>Tailwind CSS
     </td>
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=bootstrap" width="65" height="65" alt="Bootstrap" />
+      <br>Bootstrap
+    </td>
   </tr>
   <tr>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=bootstrap" width="48" height="48" alt="Bootstrap" />
-      <br>Bootstrap
-    </td>
-    <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5" />
+        <img src="https://skillicons.dev/icons?i=html" width="65" height="65" alt="HTML5" />
       <br>HTML5
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS" />
+        <img src="https://skillicons.dev/icons?i=css" width="65" height="65" alt="CSS" />
       <br>CSS3
+    </td>
+     <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=cs" alt="cs" width="65" height="65" />
+      <br>C#
     </td>
   </tr>
 </table>
+
 
 </div>
 
