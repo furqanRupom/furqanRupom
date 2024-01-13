@@ -162,9 +162,7 @@
 
 
 
-<div align="center">
-  <a href="https://app.daily.dev/furqan000"><img src="https://api.daily.dev/devcards/777631bdea504188883f9ebc5871e542.png?r=is7" width="400" alt="furqan ahmad's Dev Card"/></a>
-</div>
+
 
 
 
