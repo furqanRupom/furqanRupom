@@ -8,9 +8,7 @@
 <br>
 
 <div align="center">
-  <a href="https://app.daily.dev/furqan000">
-    <img align="right" src="https://api.daily.dev/devcards/777631bdea504188883f9ebc5871e542.png?r=7m4" width="220" alt="Furqan Rupom's Dev Card"/>
-  </a>
+ <a href="https://app.daily.dev/fab978"><img align="right" src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=crn" width="220" alt="furqan ahmad's Dev Card"/></a>
 </div>
 
 ### Hey there! 🌟 I'm Furqan Rupom.
