@@ -14,7 +14,7 @@
 ### Hey there! 🌟 I'm Furqan Rupom.
 
 - 💡 Exploring the realms of code and creativity.
-- 🚀 Currently crafting [space scope-app](https://github.com/furqanRupom/space_scope-app).
+- 🚀 Currently crafting [steps-app](https://github.com/furqanRupom/steps-app).
 - 🌱 Learning the art of databases with **Prisma & PostgresSQL**.
 - 👯 Open to unique and exciting collaborations on GitHub.
 - 🌐 Explore my portfolio: [Furqan Ahmad Portfolio](https://furqanahmadportfolio.vercel.app/).
