@@ -1,5 +1,5 @@
 <p >
-<img width="1200px" src="https://github-widgetbox.vercel.app/api/profile?username=furqanRupom&data=followers,repositories,stars,commits&theme=dark&title_color=000000">
+<img height="300px" width="1200px" src="https://github-widgetbox.vercel.app/api/profile?username=furqanRupom&data=followers,repositories,stars,commits&theme=dark&title_color=000000">
 </p>
 
 <div align="center">
@@ -11,8 +11,7 @@
 </p>
 
 <br/>
-<br/>
-<br/>
+
 
 
 ---
