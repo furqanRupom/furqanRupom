@@ -7,7 +7,7 @@
 </div>
 
 <p>
-<img  width="500px" height="350px" src="https://github-readme-stats.vercel.app/api/wakatime?username=gengjiawen&layout=compact&theme=gotham&border=none">
+<img  width="500px" height="350px" src="https://github-readme-stats.vercel.app/api/wakatime?username=rupom120&layout=compact&theme=gotham&hide_border=true&hide_title=true">
 </p>
 
 <br/>
