@@ -1,18 +1,16 @@
-<p >
-<img height="300px" width="1200px" src="https://github-widgetbox.vercel.app/api/profile?username=furqanRupom&data=followers,repositories,stars,commits&theme=dark&title_color=000000">
+<p>
+  <img height="300px" width="1200px" src="https://github-widgetbox.vercel.app/api/profile?username=furqanRupom&data=followers,repositories,stars,commits&theme=dark&title_color=000000">
 </p>
 
 <div align="center">
-<a href="https://app.daily.dev/fab978"><img align="right" src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf" width="230" alt="furqan ahmad's Dev Card"/></a>
+  <a href="https://app.daily.dev/fab978"><img align="right" src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf" width="230" alt="furqan ahmad's Dev Card"/></a>
 </div>
+
 <p>
   <img width="500px" height="350px" src="https://github-readme-stats.vercel.app/api/wakatime?username=rupom120&layout=compact&theme=gotham&hide_border=true&hide_title=false&custom_title=My%20Coding%20Activity%20Overview">
 </p>
 
-
 <br/>
-
-
 
 ---
 
@@ -32,10 +30,20 @@
 </p>
 
 <p align="center">
-  <a href="https://wakatime.com/@fab123">
+
+  <img width="60%" src="https://github-readme-streak-stats.herokuapp.com/?user=furqanrupom&theme=gotham&hide_border=true&custom_title=Furqan's%20Commit%20Streak" alt="Furqan's Commit Streak" />
+
+ 
+</p>
+
+
+<p align="center">
+  <a href="https://wakatime.com/@rupom120">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=furqanrupom&theme=gotham&hide_border=true&custom_title=Furqan's%20GitHub%20Activity%20Graph" width="95%" alt="Furqan's GitHub Activity Graph" />
   </a>
 </p>
+
+
 
 ---
 
