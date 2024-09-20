@@ -46,8 +46,5 @@
 
 ---
 
-
----
-
 ### ⚡ Fun Fact
 Coding feels like **hacking** the matrix when you master the backend!
