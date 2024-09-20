@@ -30,7 +30,7 @@
 
 <p align="center">
 
-  <img width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=furqanrupom&theme=gotham&hide_border=true&custom_title=Furqan's%20Commit%20Streak" alt="Furqan's Commit Streak" />
+  <img width="100%" height="300px" src="https://github-readme-streak-stats.herokuapp.com/?user=furqanrupom&theme=gotham&hide_border=true&custom_title=Furqan's%20Commit%20Streak" alt="Furqan's Commit Streak" />
 
  
 </p>
