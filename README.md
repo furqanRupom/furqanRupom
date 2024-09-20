@@ -1,4 +1,6 @@
-![MERN Stack Backend Developer](https://i.ibb.co/X53N84F/github-header-image.png)
+<p >
+<img width="1200px" src="https://github-widgetbox.vercel.app/api/profile?username=furqanRupom&data=followers,repositories,stars,commits&theme=dark&title_color=000000">
+</p>
 
 <div align="center">
 <a href="https://app.daily.dev/fab978"><img align="right" src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf" width="270" alt="furqan ahmad's Dev Card"/></a>
