@@ -2,11 +2,11 @@
   <a href="https://app.daily.dev/fab978"><img align="right" src="https://gh-widgetbox.vercel.app/api/profile?username=furqanRupom&data=followers,repositories,stars,commits" height="200" width="1200" height="400px" alt="furqan ahmad's Dev Card"/></a>
 </div>
 <div align="center">
-  <a href="https://app.daily.dev/fab978"><img align="right" src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf" width="230" alt="furqan ahmad's Dev Card"/></a>
+  <a href="https://app.daily.dev/fab978"><img align="right" src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf" width="200" alt="furqan ahmad's Dev Card"/></a>
 </div>
 
 
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=rupom120&theme=gotham&hide_border=true&hide_title=false&custom_title=My%20Coding%20Activity%20Overview" width="500" height="400">
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=rupom120&theme=gotham&hide_border=true&hide_title=false&custom_title=My%20Coding%20Activity%20Overview" width="600" height="400">
 
 
 <br/>
