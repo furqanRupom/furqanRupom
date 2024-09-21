@@ -5,9 +5,8 @@
   <a href="https://app.daily.dev/fab978"><img align="right" src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf" width="230" alt="furqan ahmad's Dev Card"/></a>
 </div>
 
-<p>
-  <img width="500px" height="350px" src="https://github-readme-stats.vercel.app/api/wakatime?username=rupom120&layout=compact&theme=gotham&hide_border=true&hide_title=false&custom_title=My%20Coding%20Activity%20Overview">
-</p>
+
+![My Coding Activity Overview](https://github-readme-stats.vercel.app/api/wakatime?username=rupom120&theme=gotham&hide_border=true&hide_title=false&custom_title=My%20Coding%20Activity%20Overview)
 
 <br/>
 
