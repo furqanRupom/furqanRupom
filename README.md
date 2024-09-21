@@ -6,7 +6,7 @@
 </div>
 
 
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=rupom120&theme=gotham&hide_border=true&hide_title=false&custom_title=My%20Coding%20Activity%20Overview" width="600" height="400">
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=rupom120&theme=gotham&hide_border=true&hide_title=false&custom_title=My%20Coding%20Activity%20Overview" width="500" height="400">
 
 
 <br/>
