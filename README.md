@@ -1,6 +1,15 @@
 <div align="center">
   <a href="https://app.daily.dev/fab978"><img align="right" src="https://gh-widgetbox.vercel.app/api/profile?username=furqanRupom&data=followers,repositories,stars,commits" height="200" width="1200" height="400px" alt="furqan ahmad's Dev Card"/></a>
 </div>
+
+<br>
+<br>
+
+![furqanRupom github-stats](https://stats.dooboo.io/api/github-stats-advanced?login=furqanRupom)
+
+<br>
+<br>
+
 <div align="center">
   <a href="https://app.daily.dev/fab978"><img align="right" src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf" width="200" alt="furqan ahmad's Dev Card"/></a>
 </div>
@@ -17,7 +26,15 @@
 
 
 
----
+
+--- 
+
+
+
+
+
+
+
 
 ### 🛠️ Languages & Tools
 
