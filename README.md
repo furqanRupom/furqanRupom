@@ -22,7 +22,7 @@
 ### 🛠️ Languages & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,ts,js,postgresql,mongodb,prisma,next,react,redux,nest,docker" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,ts,js,postgresql,mongodb,prisma,next,react,redux,nest,docker,redis" />
 </p>
 
 ---
