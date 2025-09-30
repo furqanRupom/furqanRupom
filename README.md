@@ -9,7 +9,7 @@
 </div>
 
 
-![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=rupom120&theme=gotham&hide_border=true&custom_title=My%20Coding%20Activity%20Overview)
+![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=rupom120&theme=gotham&hide_border=true&custom_title=My%20Coding%20Activity%20Overview&langs_count=10)
 
 <br>
 <br>
