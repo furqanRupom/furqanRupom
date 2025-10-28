@@ -52,5 +52,6 @@
 
 ---
 
-### ⚡ Fun Fact
-Coding feels like **hacking** the matrix when you master the backend!
+<div align="center">
+  <sub><em>“Code is like humor. When you have to explain it, it’s bad.” – Cory House</em></sub>
+</div>
