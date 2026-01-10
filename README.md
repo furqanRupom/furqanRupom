@@ -1,6 +1,6 @@
 <!-- Cover Image at the top -->
 <div align="center">
-  <img src="github.jpeg" alt="Furqan's GitHub Cover" width="100%" />
+  <img src="cover.png" alt="Furqan's GitHub Cover" width="100%" />
 </div>
 
 <br>
