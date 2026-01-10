@@ -7,8 +7,7 @@
 
 <br>
 <br>
-<br>
-<br>
+
 
 <!-- Daily.dev Dev Card -->
 
@@ -21,11 +20,11 @@
 <table align="center" width="100%" cellpadding="0" cellspacing="0">
   <tr>
     <td width="70%"  align="left">
-    <img
+    <img width="100%"
   src="https://stats.justsong.cn/api/leetcode?username=furqanrupom978&theme=dark"
 />
     </td>
-    <td width="30%"  align="right">
+    <td width="35%"  align="right">
       <a href="https://app.daily.dev/fab978">
         <img
           src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf"
@@ -40,9 +39,6 @@
 <br>
 <br>
 
-
-<br>
-<br>
 
 
 <p align="center">
