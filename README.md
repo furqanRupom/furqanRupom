@@ -37,7 +37,7 @@
 
 
 <p align="center">
-  <img width="100%" src="https://skillicons.dev/icons?i=nodejs,express,ts,js,postgresql,mongodb,prisma,next,react,redux,nest,docker,redis,go,graphql" />
+  <img width="1200px" src="https://skillicons.dev/icons?i=nodejs,express,ts,js,postgresql,mongodb,prisma,next,react,redux,nest,docker,redis,go,graphql" />
 </p>
 
 <br>
@@ -47,13 +47,15 @@
 
 
 
-<div align="center">
+<div width="500px">
   <a href="https://githubcard.com/furqanRupom.svg?d=rzjR4TyU">
     <img src="https://githubcard.com/furqanRupom.svg?d=rzjR4TyU" alt="Furqan Ahmad's github Card"/>
   </a>
 </div>
 
----
+<br>
+<br>
+<br>
 
 <div align="center">
   <sub><em>“Code is like humor. When you have to explain it, it’s bad.” – Cory House</em></sub>
