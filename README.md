@@ -1,33 +1,28 @@
+<!-- Cover Image at the top -->
 <div align="center">
-  <a href="https://app.daily.dev/fab978"><img align="right" src="https://gh-widgetbox.vercel.app/api/profile?username=furqanRupom&data=followers,repositories,stars,commits" height="200" width="1200" height="400px" alt="furqan ahmad's Dev Card"/></a>
-</div>
-<br>
-<br>
-
-<div align="center">
-  <a href="https://app.daily.dev/fab978"><img align="right" src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf" width="200" alt="furqan ahmad's Dev Card"/></a>
+  <img src="github.jpeg" alt="Furqan's GitHub Cover" width="100%" />
 </div>
 
+<br>
 
-![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=rupom120&theme=gotham&hide_border=true&custom_title=My%20Coding%20Activity%20Overview&langs_count=10)
+<!-- Daily.dev Dev Card -->
+<div align="center">
+  <a href="https://app.daily.dev/fab978">
+    <img src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf" width="200" alt="Furqan Ahmad's Dev Card"/>
+  </a>
+</div>
 
 <br>
 <br>
 
+---
 
---- 
-
-
-
-### 🛠️ Languages & Tools
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=nodejs,express,ts,js,postgresql,mongodb,prisma,next,react,redux,nest,docker,redis,go,graphql" />
 </p>
 
----
 
-### 📊 Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=furqanrupom&theme=gotham&show_icons=true&count_private=true&hide_border=true&custom_title=Furqan's%20GitHub%20Statistics" height="180" alt="Furqan's GitHub Stats" />
@@ -35,20 +30,8 @@
 </p>
 
 <p align="center">
-
-  <img width="60%" src="https://github-readme-streak-stats.herokuapp.com/?user=furqanrupom&theme=gotham&hide_border=true&custom_title=Furqan's%20Commit%20Streak" alt="Furqan's Commit Streak" />
-
- 
+  <img width="60%" src="https://github-readme-activity-graph.vercel.app/graph?username=furqanrupom&theme=gotham&hide_border=true&custom_title=Furqan's%20GitHub%20Activity%20Graph" alt="Furqan's GitHub Activity Graph" />
 </p>
-
-
-<p align="center">
-  <a href="https://wakatime.com/@rupom120">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=furqanrupom&theme=gotham&hide_border=true&custom_title=Furqan's%20GitHub%20Activity%20Graph" width="95%" alt="Furqan's GitHub Activity Graph" />
-  </a>
-</p>
-
-
 
 ---
 
