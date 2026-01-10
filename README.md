@@ -1,7 +1,10 @@
 <!-- Cover Image at the top -->
 <div align="center">
-  <img
+  <!-- <img
   src="https://fancy-readme-stats.vercel.app/api?username=furqanRupom&theme=forest&footer=hell%20yeah%20we%20dying&show_icons=true&title=Mr%20Hellspawn&description=Code%20in%20hell%2C%20commit%20in%20hell%2C%20live%20in%20hell&include_all_commits=true"
+/> -->
+   <img
+  src="cover.png" alt="github cover image"
 />
 </div>
 
