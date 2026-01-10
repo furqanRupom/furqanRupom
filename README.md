@@ -4,27 +4,30 @@
 </div>
 
 <br>
+<br>
+<br>
+<br>
 
 <!-- Daily.dev Dev Card -->
 
-<div style="display:flex;justify-content:space-between;gap:2rem;align-items:center; height:420px;">
+
+<div >
 
 
 
 
 <table align="center" width="100%" cellpadding="0" cellspacing="0">
   <tr>
-    <td width="65%" align="center">
-      <img
-        src="https://github-readme-activity-graph.vercel.app/graph?username=furqanrupom&theme=gotham&hide_border=true"
-        alt="Furqan's GitHub Activity Graph"
-      />
+    <td width="80%"  align="left">
+    <img
+  src="https://fancy-readme-stats.vercel.app/api?username=furqanRupom&theme=forest_winter&footer=hell%20yeah%20we%20dying&show_icons=true&title=Mr%20Hellspawn&description=Code%20in%20hell%2C%20commit%20in%20hell%2C%20live%20in%20hell&include_all_commits=true"
+/>
     </td>
-    <td width="35%" align="center">
+    <td width="20%"  align="center">
       <a href="https://app.daily.dev/fab978">
         <img
           src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf"
-          width="300"
+          width="200"
           alt="Furqan Ahmad's Dev Card"
         />
       </a>
