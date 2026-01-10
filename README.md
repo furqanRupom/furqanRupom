@@ -11,20 +11,29 @@
 
 
 
-<p>
-  <img style="object-fit:cover;min-height:100px;" src="https://github-readme-activity-graph.vercel.app/graph?username=furqanrupom&theme=gotham&hide_border=true&custom_title=Furqan's%20GitHub%20Activity%20Graph" alt="Furqan's GitHub Activity Graph" />
-</p>
 
-  <div>
-  <a href="https://app.daily.dev/fab97">
-    <img src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf" width="350" alt="Furqan Ahmad's Dev Card"/>
-  </a>
-</div>
-</div>
+<table align="center" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="65%" align="center">
+      <img
+        src="https://github-readme-activity-graph.vercel.app/graph?username=furqanrupom&theme=gotham&hide_border=true"
+        alt="Furqan's GitHub Activity Graph"
+      />
+    </td>
+    <td width="35%" align="center">
+      <a href="https://app.daily.dev/fab978">
+        <img
+          src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf"
+          width="300"
+          alt="Furqan Ahmad's Dev Card"
+        />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <br>
 <br>
-
 
 
 <p align="center">
@@ -39,7 +48,7 @@
 
 
 <div align="center">
-  <a href="[https://app.daily.dev/fab978](https://githubcard.com/furqanRupom.svg?d=rzjR4TyU)">
+  <a href="https://githubcard.com/furqanRupom.svg?d=rzjR4TyU">
     <img src="https://githubcard.com/furqanRupom.svg?d=rzjR4TyU" alt="Furqan Ahmad's github Card"/>
   </a>
 </div>
