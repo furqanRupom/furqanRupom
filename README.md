@@ -1,6 +1,8 @@
 <!-- Cover Image at the top -->
 <div align="center">
-  <img src="cover.png" alt="Furqan's GitHub Cover" width="100%" />
+  <img
+  src="https://fancy-readme-stats.vercel.app/api?username=furqanRupom&theme=forest&footer=hell%20yeah%20we%20dying&show_icons=true&title=Mr%20Hellspawn&description=Code%20in%20hell%2C%20commit%20in%20hell%2C%20live%20in%20hell&include_all_commits=true"
+/>
 </div>
 
 <br>
@@ -18,22 +20,26 @@
 
 <table align="center" width="100%" cellpadding="0" cellspacing="0">
   <tr>
-    <td width="80%"  align="left">
+    <td width="70%"  align="left">
     <img
-  src="https://fancy-readme-stats.vercel.app/api?username=furqanRupom&theme=forest_winter&footer=hell%20yeah%20we%20dying&show_icons=true&title=Mr%20Hellspawn&description=Code%20in%20hell%2C%20commit%20in%20hell%2C%20live%20in%20hell&include_all_commits=true"
+  src="https://stats.justsong.cn/api/leetcode?username=furqanrupom978&theme=dark"
 />
     </td>
-    <td width="20%"  align="center">
+    <td width="30%"  align="right">
       <a href="https://app.daily.dev/fab978">
         <img
           src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf"
-          width="200"
+          width="300"
           alt="Furqan Ahmad's Dev Card"
         />
       </a>
     </td>
   </tr>
 </table>
+
+<br>
+<br>
+
 
 <br>
 <br>
