@@ -98,14 +98,20 @@ const furqan = {
 
 
 <div align="center">
-<table width="100%" cellpadding="0" cellspacing="0">
+<table align="center" width="100%" cellpadding="0" cellspacing="0">
   <tr>
-    <td width="65%" align="left" valign="top">
-      <img width="100%" src="https://stats.justsong.cn/api/github?username=furqanrupom&theme=dark" alt="GitHub Stats"/>
+    <td width="70%"  align="left">
+    <img width="100%"
+  src="https://stats.justsong.cn/api/github?username=furqanrupom&theme=dark"
+/>
     </td>
-    <td width="35%" align="right" valign="top">
+    <td width="35%"  align="right">
       <a href="https://app.daily.dev/fab978">
-        <img src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf" width="280" alt="Furqan Ahmad's Dev Card"/>
+        <img
+          src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf"
+          width="300"
+          alt="Furqan Ahmad's Dev Card"
+        />
       </a>
     </td>
   </tr>
