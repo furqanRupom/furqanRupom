@@ -57,7 +57,7 @@
 
 <div width="500px">
   <a href="https://githubcard.com/furqanRupom.svg?d=rzjR4TyU">
-    <img src="https://githubcard.com/furqanRupom.svg?d=rzjR4TyU" alt="Furqan Ahmad's github Card"/>
+    <img src="https://githubcard.com/g/rzjR4TyU.svg" alt="Furqan Ahmad's github Card"/>
   </a>
 </div>
 
