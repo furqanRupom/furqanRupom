@@ -70,7 +70,7 @@ const furqan = {
 ##  Connect With Me
 
 <div >
-  <a href="https://linkedin.com/in/furqanrupom" target="_blank">
+  <a href="https://www.linkedin.com/in/furqan-ahmad-6149ba281/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   &nbsp;
@@ -78,7 +78,7 @@ const furqan = {
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   &nbsp;
-  <a href="https://twitter.com/furqanrupom" target="_blank">
+  <a href="https://twitter.com/ahmad288140" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a>
   &nbsp;
