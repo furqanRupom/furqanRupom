@@ -121,7 +121,7 @@ const furqan = {
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=furqanRupom&theme=tokyonight&hide_border=true&border_radius=10&stroke=7c3aed&ring=a78bfa&fire=f472b6&currStreakLabel=a78bfa" width="49%" alt="streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=furqanRupom&theme=tokyonight&hide_border=true&border_radius=10&stroke=7c3aed&ring=a78bfa&fire=f472b6&currStreakLabel=a78bfa" width="70%" alt="streak"/>
 
 </div>
 
