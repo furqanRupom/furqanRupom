@@ -86,7 +86,7 @@ const furqan = {
     <img src="https://img.shields.io/badge/daily.dev-CE3DF3?style=for-the-badge&logo=daily.dev&logoColor=white" alt="daily.dev"/>
   </a>
   &nbsp;
-  <a href="mailto:furqan@example.com" target="_blank">
+  <a href="mailto:furqanrupom978@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </div>
