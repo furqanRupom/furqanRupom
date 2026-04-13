@@ -46,7 +46,7 @@ const furqan = {
 
 ### ⚡ Frontend
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=react,next,ts,js,redux,tailwind,html,css" />
+  <img src="https://skillicons.dev/icons?i=react,next,ts,redux" />
 </p>
 
 ### 🔧 Backend
