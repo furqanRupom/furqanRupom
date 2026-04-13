@@ -13,33 +13,7 @@
 
 <br>
 
-`> cat about.go`
-
-```go
-package main
-
-type Developer struct {
-    Name        string
-    Role        string
-    Location    string
-    Focus       []string
-    CurrentWork string
-    Learning    []string
-    FunFact     string
-}
-
-func main() {
-    me := Developer{
-        Name:        "Furqan Ahmad",
-        Role:        "Full Stack Developer",
-        Location:    "Bangladesh",
-        Focus:       []string{"Scalable APIs", "Modern UI", "Clean Architecture"},
-        CurrentWork: "Building a tourism web platform",
-        Learning:    []string{"Next.js 15", "Go", "System Design"},
-        FunFact:     "I debug with fmt.Println() and I'm not sorry",
-    }
-}
-```
+<img src = "./about_me.png" alt="about me" />
 
 <br>
 
