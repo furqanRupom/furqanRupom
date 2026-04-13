@@ -5,13 +5,6 @@
 
 <br>
 
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+scalable+web+applications+%F0%9F%9A%80;TypeScript+%7C+Node.js+%7C+Next.js+enthusiast;Clean+code+%2C+clean+architecture+%E2%9C%A8;Always+learning%2C+always+shipping+%F0%9F%93%A6" alt="Typing SVG" />
-  </a>
-</div>
-
-<br>
 
 <img src = "./about_me.png" alt="about me" />
 
