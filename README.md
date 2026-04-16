@@ -20,7 +20,7 @@
 
 <br>
 
-`import { TechStack }`
+`import { TechStack } from @common/furqan`
 
 `01 ─ Frontend`
 <p align="left">
