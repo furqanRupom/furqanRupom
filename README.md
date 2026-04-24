@@ -9,6 +9,8 @@
 <br>
 
 <div align="center"><img align="center" src="./about_title.svg" width="35%" /></div>
+<br>
+<br>
 <img src = "./about_me.png" alt="about me" />
 
 <br>
