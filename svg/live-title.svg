@@ -1,0 +1,25 @@
+<svg viewBox="0 0 380 52" xmlns="http://www.w3.org/2000/svg">
+  <rect width="380" height="52" fill="#0a0a0f"/>
+  <defs>
+    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="14" r="1.4" fill="#7c3aed" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="380" height="52" fill="url(#dots)"/>
+
+  <polyline points="14,18 14,8 24,8"   fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.6"/>
+  <polyline points="14,34 14,44 24,44" fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.6"/>
+  <polyline points="366,18 366,8 356,8"   fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.6"/>
+  <polyline points="366,34 366,44 356,44" fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.6"/>
+
+  <rect x="28" y="14" width="3" height="24" rx="1" fill="#7c3aed" opacity="0.9"/>
+
+  <!-- live pulse dot -->
+  <circle cx="352" cy="26" r="5" fill="#7c3aed" opacity="0.15"/>
+  <circle cx="352" cy="26" r="3" fill="#3fb950" opacity="0.9"/>
+
+  <text x="38" y="23" fill="#7c3aed" font-family="monospace" font-size="9"
+        letter-spacing="2" opacity="0.8">03 ── [LIVE]</text>
+  <text x="38" y="40" fill="#ffffff" font-family="monospace" font-size="15"
+        font-weight="bold" letter-spacing="3">WHAT I'M UP TO</text>
+</svg>
