@@ -5,8 +5,10 @@
 </div>
 
 <br>
+<br>
+<br>
 
-<div align="center"><img align="center" src="./about_title.svg" width="40%" /></div>
+<div align="center"><img align="center" src="./about_title.svg" width="30%" /></div>
 <img src = "./about_me.png" alt="about me" />
 
 <br>
@@ -21,47 +23,51 @@
 
 <br>
 
-`import { TechStack } from @common/furqan`
+
+<div align="center"><img align="center" src="./svg/tech-skills.svg" width="30%" /></div>
 
 `01 ─ Frontend`
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=react,next,ts,redux" />
 </p>
 
 `02 ─ Backend`
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=nodejs,express,nest,graphql,go,prisma" />
 </p>
 
 `03 ─ Databases & Caching`
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=postgresql,mongodb,redis,mysql" />
 </p>
 
 `04 ─ DevOps & Tools`
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode,postman" />
 </p>
 
 <br>
+<br>
+<br>
 
-`// connect`
-
+<div align="center"><img align="center" src="./svg/connect-title.svg" width="30%" /></div>
+<br>
+<br>
 <div align="center">
   <a href="https://www.linkedin.com/in/furqan-ahmad-6149ba281/">
-    <img src="./svg/linkedin.svg" height="60" alt="LinkedIn"/>
+    <img src="./svg/linkedin.svg" height="70" alt="LinkedIn"/>
   </a>
   <a href="https://twitter.com/ahmad288140">
-    <img src="./svg/x.svg" height="60" alt="X"/>
+    <img src="./svg/x.svg" height="70" alt="X"/>
   </a>
   <a href="https://app.daily.dev/fab978">
-    <img src="./svg/daily-dev.svg" height="60" alt="daily.dev"/>
+    <img src="./svg/daily-dev.svg" height="70" alt="daily.dev"/>
   </a>
   <a href="https://hashnode.com/@furqanRupom">
-    <img src="./svg/hash-node.svg" height="60" alt="Hashnode"/>
+    <img src="./svg/hash-node.svg" height="70" alt="Hashnode"/>
   </a>
   <a href="https://leetcode.com/furqanRupom">
-    <img src="./svg/leet-code.svg" height="60" alt="LeetCode"/>
+    <img src="./svg/leet-code.svg" height="70" alt="LeetCode"/>
   </a>
 </div>
 
