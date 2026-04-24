@@ -1,0 +1,33 @@
+<svg viewBox="0 0 380 52" xmlns="http://www.w3.org/2000/svg">
+  <rect width="380" height="52" fill="#0a0a0f"/>
+  <defs>
+    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="14" r="1.4" fill="#7c3aed" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="380" height="52" fill="url(#dots)"/>
+
+  <!-- left bracket -->
+  <polyline points="14,18 14,8 24,8"   fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.6"/>
+  <polyline points="14,34 14,44 24,44" fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.6"/>
+
+  <!-- right bracket -->
+  <polyline points="366,18 366,8 356,8"   fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.6"/>
+  <polyline points="366,34 366,44 356,44" fill="none" stroke="#7c3aed" stroke-width="1.1" opacity="0.6"/>
+
+  <!-- accent left bar -->
+  <rect x="28" y="14" width="3" height="24" rx="1" fill="#7c3aed" opacity="0.9"/>
+
+  <!-- dashed line right side -->
+  <line x1="270" y1="26" x2="350" y2="26" stroke="#7c3aed" stroke-width="0.8"
+        stroke-dasharray="4 3" opacity="0.45"/>
+  <circle cx="350" cy="26" r="2.5" fill="#a78bfa" opacity="0.8"/>
+
+  <!-- prefix -->
+  <text x="38" y="23" fill="#7c3aed" font-family="monospace" font-size="9"
+        letter-spacing="2" opacity="0.8">01 ──</text>
+
+  <!-- title -->
+  <text x="38" y="40" fill="#ffffff" font-family="monospace" font-size="15"
+        font-weight="bold" letter-spacing="3">ABOUT ME</text>
+</svg>
