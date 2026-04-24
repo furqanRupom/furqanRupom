@@ -20,7 +20,7 @@
 
   <!-- import { TechStack } comment style -->
   <text x="38" y="23" fill="#7c3aed" font-family="monospace" font-size="9"
-        letter-spacing="2" opacity="0.8">02 ──</text>
+        letter-spacing="2" opacity="0.8">03 ──</text>
   <text x="38" y="40" fill="#ffffff" font-family="monospace" font-size="15"
         font-weight="bold" letter-spacing="3">TECH STACK</text>
 </svg>
