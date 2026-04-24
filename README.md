@@ -1,6 +1,7 @@
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Furqan%20Ahmad&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Backend%20Developer&descSize=18&descAlignY=58&descColor=a78bfa&animation=fadeIn" width="100%" alt="banner"/>
+  <!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Furqan%20Ahmad&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Backend%20Developer&descSize=18&descAlignY=58&descColor=a78bfa&animation=fadeIn" width="100%" alt="banner"/> -->
+  <img src="./banner.png" alt="banner image" />
 </div>
 
 <br>
@@ -115,13 +116,14 @@
 </div>
 
 <br>
+<br>
+<br>
+<br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer&animation=fadeIn" width="100%" alt="footer"/>
+  <img src="./footer.png" width="100%" alt="footer"/>
 </div>
 
 <br>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=furqanRupom&color=7c3aed&style=for-the-badge&label=PROFILE+VIEWS" alt="profile views"/>
-</div>
+
