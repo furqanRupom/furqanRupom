@@ -19,7 +19,7 @@
   <circle cx="352" cy="26" r="3" fill="#3fb950" opacity="0.9"/>
 
   <text x="38" y="23" fill="#7c3aed" font-family="monospace" font-size="9"
-        letter-spacing="2" opacity="0.8">03 ── [LIVE]</text>
+        letter-spacing="2" opacity="0.8">02 ── [LIVE]</text>
   <text x="38" y="40" fill="#ffffff" font-family="monospace" font-size="15"
         font-weight="bold" letter-spacing="3">WHAT I'M UP TO</text>
 </svg>
