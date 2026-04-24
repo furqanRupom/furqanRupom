@@ -13,35 +13,49 @@
 
 <br>
 
-`[LIVE] What I'm Up To`
+<div align="center">
+  <img src="./svg/live-title.svg" width="30%"/>
+</div>
 
-- Exploring — Diving deep into **Next.js 15** App Router & Server Components
-- Building — A full-featured **tourism website** with real-time booking, maps & reviews
-- Learning — **Go** for high-performance backend services
-- Experimenting — **GraphQL subscriptions** + **Redis pub/sub** for live data
-- Open to — Collaborating on meaningful open-source projects
+<br/>
 
+> **Building Elevatia** — SaaS business site booking app. Node.js + Express backend, Next.js frontend. Early days but shipping fast.
+>
+> **Building Bounties & Quests** — dev rewards platform where you pick up and complete bounties. NestJS + Next.js stack.
+>
+> **Learning Go** — digging into performant backend services and how things work at a lower level.
+>
+> **Studying System Design** — distributed systems, caching, queues. Thinking in systems more than just features.
+>
+> **Staying consistent** — showing up every day. Building the habit more than chasing the hype.
+
+<br/>
+<br/>
+
+<br>
+<br>
 <br>
 
 
 <div align="center"><img align="center" src="./svg/tech-skills.svg" width="30%" /></div>
-
-`01 ─ Frontend`
+<br>
+<br>
+<p align="center"><code>01 ─ Frontend</code></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,next,ts,redux" />
 </p>
 
-`02 ─ Backend`
+<p align="center"><code>02 ─ Backend</code></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=nodejs,express,nest,graphql,go,prisma" />
 </p>
 
-`03 ─ Databases & Caching`
+<p align="center"><code>03 ─ Databases & Caching</code></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=postgresql,mongodb,redis,mysql" />
 </p>
 
-`04 ─ DevOps & Tools`
+<p align="center"><code>04 ─ DevOps & Tools</code></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode,postman" />
 </p>
@@ -63,10 +77,10 @@
   <a href="https://app.daily.dev/fab978">
     <img src="./svg/daily-dev.svg" height="70" alt="daily.dev"/>
   </a>
-  <a href="https://hashnode.com/@furqanRupom">
+  <a href="https://hashnode.com/@fab000">
     <img src="./svg/hash-node.svg" height="70" alt="Hashnode"/>
   </a>
-  <a href="https://leetcode.com/furqanRupom">
+  <a href="https://leetcode.com/furqanRupom978">
     <img src="./svg/leet-code.svg" height="70" alt="LeetCode"/>
   </a>
 </div>
