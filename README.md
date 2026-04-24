@@ -47,25 +47,21 @@
 
 `// connect`
 
-<div>
-  <a href="https://www.linkedin.com/in/furqan-ahmad-6149ba281/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+<div align="center">
+  <a href="https://www.linkedin.com/in/furqan-ahmad-6149ba281/">
+    <img src="./svg/linkedin.svg" height="60" alt="LinkedIn"/>
   </a>
-  &nbsp;
-  <a href="https://github.com/furqanRupom" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <a href="https://twitter.com/ahmad288140">
+    <img src="./svg/x.svg" height="60" alt="X"/>
   </a>
-  &nbsp;
-  <a href="https://twitter.com/ahmad288140" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  <a href="https://app.daily.dev/fab978">
+    <img src="./svg/daily-dev.svg" height="60" alt="daily.dev"/>
   </a>
-  &nbsp;
-  <a href="https://app.daily.dev/fab978" target="_blank">
-    <img src="https://img.shields.io/badge/daily.dev-CE3DF3?style=for-the-badge&logo=daily.dev&logoColor=white" alt="daily.dev"/>
+  <a href="https://hashnode.com/@furqanRupom">
+    <img src="./svg/hash-node.svg" height="60" alt="Hashnode"/>
   </a>
-  &nbsp;
-  <a href="mailto:furqanrupom978@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  <a href="https://leetcode.com/furqanRupom">
+    <img src="./svg/leet-code.svg" height="60" alt="LeetCode"/>
   </a>
 </div>
 
