@@ -8,13 +8,13 @@
 <br>
 <br>
 
-<div align="center"><img align="center" src="./about_title.svg" width="30%" /></div>
+<div align="center"><img align="center" src="./about_title.svg" width="35%" /></div>
 <img src = "./about_me.png" alt="about me" />
 
 <br>
 
 <div align="center">
-  <img src="./svg/live-title.svg" width="30%"/>
+  <img src="./svg/live-title.svg" width="35%"/>
 </div>
 
 <br/>
@@ -37,7 +37,7 @@
 <br>
 
 
-<div align="center"><img align="center" src="./svg/tech-skills.svg" width="30%" /></div>
+<div align="center"><img align="center" src="./svg/tech-skills.svg" width="35%" /></div>
 <br>
 <br>
 <p align="center"><code>01 ─ Frontend</code></p>
@@ -64,7 +64,7 @@
 <br>
 <br>
 
-<div align="center"><img align="center" src="./svg/connect-title.svg" width="30%" /></div>
+<div align="center"><img align="center" src="./svg/connect-title.svg" width="35%" /></div>
 <br>
 <br>
 <div align="center">
@@ -90,6 +90,9 @@
 <br>
 <br>
 
+<div align="center"><img align="center" src="./svg/activity.svg" width="35%" /></div>
+<br>
+<br>
 <div align="center">
 <table align="center" width="100%" cellpadding="0" cellspacing="0">
   <tr>
