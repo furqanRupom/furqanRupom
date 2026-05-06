@@ -106,7 +106,7 @@
     <td width="35%"  align="right">
       <a href="https://app.daily.dev/fab978">
         <img
-          src="https://api.daily.dev/devcards/v2/01YKXdhx6XxiWycQaD2rh.png?type=default&r=gwf"
+          src="./devcard.png"
           width="300"
           alt="Furqan Ahmad's Dev Card"
         />
