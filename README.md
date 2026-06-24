@@ -21,15 +21,12 @@
 
 <br/>
 
-> **Building Elevatia** — SaaS business site booking app. Node.js + Express backend, Next.js frontend. Early days but shipping fast.
+> 1.  Exploring new technologies and continuously learning to improve backend and full-stack development skills.
 >
-> **Building Bounties & Quests** — dev rewards platform where you pick up and complete bounties. NestJS + Next.js stack.
+> 2.  Studying system design concepts including distributed systems, caching, and queues, with a focus on thinking in systems rather than just features.
 >
-> **Learning Go** — digging into performant backend services and how things work at a lower level.
->
-> **Studying System Design** — distributed systems, caching, queues. Thinking in systems more than just features.
->
-> **Staying consistent** — showing up every day. Building the habit more than chasing the hype.
+> 3. Staying consistent and focused on long-term growth by building and learning every day.
+
 
 <br/>
 <br/>
