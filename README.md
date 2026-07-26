@@ -15,17 +15,12 @@
 
 <br>
 
-<div align="center">
+<!-- <div align="center">
   <img src="./svg/live-title.svg" width="35%"/>
 </div>
 
 <br/>
-
-> 1.  Exploring new technologies and continuously learning to improve backend and full-stack development skills.
->
-> 2.  Studying system design concepts including distributed systems, caching, and queues, with a focus on thinking in systems rather than just features.
->
-> 3. Staying consistent and focused on long-term growth by building and learning every day.
+-->
 
 
 <br/>
