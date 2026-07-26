@@ -115,9 +115,9 @@
 
 <br>
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=furqanRupom&theme=tokyonight&hide_border=true&border_radius=10&stroke=7c3aed&ring=a78bfa&fire=f472b6&currStreakLabel=a78bfa" width="70%" alt="streak"/>
-</div>
+</div> -->
 
 <br>
 
@@ -127,16 +127,16 @@
 
 <br>
 
-<div width="500px">
+<!-- <div width="500px">
   <a href="https://githubcard.com/furqanRupom.svg?d=rzjR4TyU">
     <img src="https://githubcard.com/furqanRupom.svg?d=rzjR4TyU" alt="Furqan Ahmad's github Card"/>
   </a>
-</div>
+</div> -->
 
+<!-- <br>
 <br>
 <br>
-<br>
-<br>
+<br> -->
 
 <div align="center">
   <img src="./footer.png" width="100%" alt="footer"/>
