@@ -30,13 +30,28 @@
 
 <br/>
 <br/>
-
-<br>
-<br>
-<br>
-
-
 <div align="center"><img align="center" src="./svg/tech-skills.svg" width="35%" /></div>
+<br>
+<br>
+<br>
+<table align="center">
+<tr>
+<td align="center" width="100%">
+<sub><b>FRONTEND & BACKEND</b></sub><br><br>
+<img src="https://skillicons.dev/icons?i=react,next,ts,redux,nodejs,express,nest,graphql,go,prisma" />
+</td>
+</tr>
+<tr><td><br></td></tr>
+<tr>
+<td align="center" width="100%">
+<sub><b>DATABASES, CACHING & TOOLS</b></sub><br><br>
+<img src="https://skillicons.dev/icons?i=postgresql,mongodb,redis,mysql,docker,git,github,linux,vscode,postman" />
+</td>
+</tr>
+</table>
+
+
+<!-- <div align="center"><img align="center" src="./svg/tech-skills.svg" width="35%" /></div>
 <br>
 <br>
 <p align="center"><code>01 ─ Frontend</code></p>
@@ -57,7 +72,7 @@
 <p align="center"><code>04 ─ DevOps & Tools</code></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode,postman" />
-</p>
+</p> -->
 
 <br>
 <br>
