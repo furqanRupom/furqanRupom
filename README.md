@@ -107,7 +107,7 @@
   <tr>
     <td width="70%"  align="left">
     <img width="100%"
-  src="https://stats.justsong.cn/api/leetcode?username=furqanrupom978&theme=dark"
+  src="https://stats.justsong.cn/api/github?username=furqanRupom&theme=dark"
 />
     </td>
     <td width="35%"  align="right">
