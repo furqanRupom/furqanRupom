@@ -25,6 +25,7 @@
 
 <br/>
 <br/>
+<br/>
 <div align="center"><img align="center" src="./svg/tech-skills.svg" width="35%" /></div>
 <br>
 <br>
