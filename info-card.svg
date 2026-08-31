@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 550" width="490" height="550">
+    <defs>
+        <style>
+            .bg { fill: #0a0f0d; rx: 12px; stroke: #1a2a2a; stroke-width: 2px; }
+            .text { font-family: "Courier New", Consolas, monospace; font-size: 14px; }
+            .label { fill: #00FFD1; font-weight: bold; }
+            .value { fill: #C0C0C0; }
+            .title { fill: #E0E0E0; font-weight: bold; font-size: 16px; text-anchor: middle; }
+            .line { stroke: #1a2a2a; stroke-width: 1px; }
+
+            .row { opacity: 0; animation: fadeIn 0.5s forwards; }
+            @keyframes fadeIn {
+                to { opacity: 1; }
+            }
+            .r0 { animation-delay: 0.0s; }
+            .r1 { animation-delay: 0.15s; }
+            .r2 { animation-delay: 0.3s; }
+            .r3 { animation-delay: 0.44999999999999996s; }
+            .r4 { animation-delay: 0.6s; }
+            .r5 { animation-delay: 0.75s; }
+            .r6 { animation-delay: 0.8999999999999999s; }
+            .r7 { animation-delay: 1.05s; }
+            .r8 { animation-delay: 1.2s; }
+            .r9 { animation-delay: 1.3499999999999999s; }
+            .r10 { animation-delay: 1.5s; }
+            .r11 { animation-delay: 1.65s; }
+        </style>
+    </defs>
+    <rect class="bg" width="100%" height="100%" />
+
+    <!-- Header -->
+    <g transform="translate(15, 20)">
+        <circle cx="0" cy="0" r="6" fill="#FF5F56" />
+        <circle cx="20" cy="0" r="6" fill="#FFBD2E" />
+        <circle cx="40" cy="0" r="6" fill="#27C93F" />
+    </g>
+    <text x="245" y="25" class="text title">The Cipher Stack</text>
+    <line x1="0" y1="40" x2="490" y2="40" class="line" />
+
+    <g transform="translate(30, 80)">
+        <g class="row r0">
+            <text x="0" y="0" class="text label">OS</text>
+            <text x="120" y="0" class="text value">Ubuntu / Linux</text>
+        </g>
+        <g class="row r1">
+            <text x="0" y="30" class="text label">Host</text>
+            <text x="120" y="30" class="text value">GitHub</text>
+        </g>
+        <g class="row r2">
+            <text x="0" y="60" class="text label">Role</text>
+            <text x="120" y="60" class="text value">Backend / Full Stack Developer</text>
+        </g>
+        <g class="row r3">
+            <text x="0" y="90" class="text label">Experience</text>
+            <text x="120" y="90" class="text value">~10 Months</text>
+        </g>
+        <g class="row r4">
+            <text x="0" y="120" class="text label">Location</text>
+            <text x="120" y="120" class="text value">Feni, Chittagong, Bangladesh</text>
+        </g>
+        <g class="row r5">
+            <text x="0" y="165" class="text label">Backend</text>
+            <text x="120" y="165" class="text value">Node.js · Express · NestJS · FastAPI</text>
+        </g>
+        <g class="row r6">
+            <text x="0" y="195" class="text label">Frontend</text>
+            <text x="120" y="195" class="text value">React · Next.js · TypeScript</text>
+        </g>
+        <g class="row r7">
+            <text x="0" y="225" class="text label">Database</text>
+            <text x="120" y="225" class="text value">PostgreSQL · MongoDB · MySQL</text>
+        </g>
+        <g class="row r8">
+            <text x="0" y="255" class="text label">DevOps</text>
+            <text x="120" y="255" class="text value">Docker · GitHub · Vercel</text>
+        </g>
+        <g class="row r9">
+            <text x="0" y="300" class="text label">Portfolio</text>
+            <text x="120" y="300" class="text value">furqan-ahmad.vercel.app</text>
+        </g>
+        <g class="row r10">
+            <text x="0" y="330" class="text label">GitHub</text>
+            <text x="120" y="330" class="text value">github.com/furqanRupom</text>
+        </g>
+        <g class="row r11">
+            <text x="0" y="360" class="text label">LinkedIn</text>
+            <text x="120" y="360" class="text value">linkedin.com/in/furqan-ahmad-rupom</text>
+        </g>
+    </g>
+</svg>
