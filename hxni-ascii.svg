@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 550" width="370" height="550">
+    <defs>
+        <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="1.2" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <style>
+            .bg { fill: #0d0d0d; stroke: #1a2a2a; stroke-width: 1.5px; }
+            .text {
+                font-family: "Courier New", Consolas, monospace;
+                font-size: 6.2px;
+                fill: #00FFD1;
+                white-space: pre;
+                filter: url(#glow);
+            }
+            .line { opacity: 0; animation: fin 0.4s forwards; }
+            @keyframes fin {
+                from { opacity: 0; transform: translateY(2px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+            .l0 { animation-delay: 0.000s; }
+            .l1 { animation-delay: 0.020s; }
+            .l2 { animation-delay: 0.040s; }
+            .l3 { animation-delay: 0.060s; }
+            .l4 { animation-delay: 0.080s; }
+            .l5 { animation-delay: 0.100s; }
+            .l6 { animation-delay: 0.120s; }
+            .l7 { animation-delay: 0.140s; }
+            .l8 { animation-delay: 0.160s; }
+            .l9 { animation-delay: 0.180s; }
+            .l10 { animation-delay: 0.200s; }
+            .l11 { animation-delay: 0.220s; }
+            .l12 { animation-delay: 0.240s; }
+            .l13 { animation-delay: 0.260s; }
+            .l14 { animation-delay: 0.280s; }
+            .l15 { animation-delay: 0.300s; }
+            .l16 { animation-delay: 0.320s; }
+            .l17 { animation-delay: 0.340s; }
+            .l18 { animation-delay: 0.360s; }
+            .l19 { animation-delay: 0.380s; }
+            .l20 { animation-delay: 0.400s; }
+            .l21 { animation-delay: 0.420s; }
+            .l22 { animation-delay: 0.440s; }
+            .l23 { animation-delay: 0.460s; }
+            .l24 { animation-delay: 0.480s; }
+            .l25 { animation-delay: 0.500s; }
+            .l26 { animation-delay: 0.520s; }
+            .l27 { animation-delay: 0.540s; }
+            .l28 { animation-delay: 0.560s; }
+            .l29 { animation-delay: 0.580s; }
+            .l30 { animation-delay: 0.600s; }
+            .l31 { animation-delay: 0.620s; }
+            .l32 { animation-delay: 0.640s; }
+            .l33 { animation-delay: 0.660s; }
+            .l34 { animation-delay: 0.680s; }
+            .l35 { animation-delay: 0.700s; }
+            .l36 { animation-delay: 0.720s; }
+            .l37 { animation-delay: 0.740s; }
+            .l38 { animation-delay: 0.760s; }
+            .l39 { animation-delay: 0.780s; }
+            .l40 { animation-delay: 0.800s; }
+        </style>
+    </defs>
+    <rect class="bg" width="100%" height="100%" rx="12" />
+    <g transform="translate(14, 24)">
+        <text x="0" y="0" class="text line l0">                                 .`--::``.                                 </text>
+        <text x="0" y="7" class="text line l1">                              `-==========--:.                             </text>
+        <text x="0" y="14" class="text line l2">                           .:-=-:::::::`:::::::`                           </text>
+        <text x="0" y="21" class="text line l3">                          `:---:--:`````.```::`::.                         </text>
+        <text x="0" y="28" class="text line l4">                         `::::--``.........````.`:                         </text>
+        <text x="0" y="35" class="text line l5">                         ``-=-`....`...`:::`..`..``                        </text>
+        <text x="0" y="42" class="text line l6">                        .``..``````.`:-=+*++==`..`:                        </text>
+        <text x="0" y="49" class="text line l7">                        .:.`-+*+-:`:-=+*****cc-`.::                        </text>
+        <text x="0" y="56" class="text line l8">                        .` -cc##scccccccssssss+..:.                        </text>
+        <text x="0" y="63" class="text line l9">                        ..-c*++===+****+===++cc-.`                         </text>
+        <text x="0" y="70" class="text line l10">                        .:+c+==-::`:=+=``:-+++c*`-`                        </text>
+        <text x="0" y="77" class="text line l11">                        --*ss+=::--+ss+::`:--+c*`+:                        </text>
+        <text x="0" y="84" class="text line l12">                        -+cs#%#s**s#%s**++**cssc-=.                        </text>
+        <text x="0" y="91" class="text line l13">                        `*ccssc+:+c*cscc+=cs#scc++                         </text>
+        <text x="0" y="98" class="text line l14">                         -***+-.:*-``::-=``=**+*=`                         </text>
+        <text x="0" y="105" class="text line l15">                         .++-:..:+**+*+*-. `-==+.                          </text>
+        <text x="0" y="112" class="text line l16">                          `=--=+c###s#ss*+::-==`                           </text>
+        <text x="0" y="119" class="text line l17">                          .:--+c#c+===*ccc=--=:                            </text>
+        <text x="0" y="126" class="text line l18">                         .::=-=c##scccsssc+=--.                            </text>
+        <text x="0" y="133" class="text line l19">                    ..```--`+*-:-==+++***=-=+:`:.                          </text>
+        <text x="0" y="140" class="text line l20">               .`::===-.---:`*s*-`....`:-=**:.--:`.`.                      </text>
+        <text x="0" y="147" class="text line l21">          .`---==-::-+:.====::*s#s*+++*csc+`.:---:.:=-:`.                  </text>
+        <text x="0" y="154" class="text line l22">        `-===-:==:--:=-`++=-``:+cssssccc+:``:=-==:.`--:---:`.              </text>
+        <text x="0" y="161" class="text line l23">       -=====-:-+:-=`--`=:.   .:+cccc*+=:``. `-==:.::`::-:----:            </text>
+        <text x="0" y="168" class="text line l24">     .-=====---:-::-:--`:.`..`  .-*cccc+`. .   `-`.::.`--`:-----.          </text>
+        <text x="0" y="175" class="text line l25">     -====--:::-``:=---:=-=:`-:`..`-*c=`  ``..:.:`.-:`:-::::-:---.         </text>
+        <text x="0" y="182" class="text line l26">    :=-===--:``:``:=-=-:=:+-`----```-:. .:-``--:-::=-:::-::-------.        </text>
+        <text x="0" y="189" class="text line l27">   .=-------::````-----=--==::=:-::::`..--:-----=:----::::--:-----:        </text>
+        <text x="0" y="196" class="text line l28">   :::---:::::`.`.:----=-===-:-::::::-:-=--======-=--=::`:::-------.       </text>
+        <text x="0" y="203" class="text line l29">   -::::---::::``.:----=-====---``:==--=--===+====----`.`:::::::---:       </text>
+        <text x="0" y="210" class="text line l30">  `=-==--:-:::::..`----======-:-:.-==:--:=+=++=====---..`:::::---:::       </text>
+        <text x="0" y="217" class="text line l31">  ----===-:::``:` .-----======--:.-=-:-:-+========-:-`.:--------:::-.      </text>
+        <text x="0" y="224" class="text line l32"> `=--===-----::``  :----===------.:--:-`-======----:: `-----:--::::-`      </text>
+        <text x="0" y="231" class="text line l33"> -=-=====----:::`. `:--------:---.:::::`-==--==--::-` :--::::::::---:      </text>
+        <text x="0" y="238" class="text line l34">.=-::-=----::::::. .`::::::::``:-.`:::`.`---::---``. `:::-::::::-----      </text>
+        <text x="0" y="245" class="text line l35">.:`:-----::``````.  ......`:```::.`-::` `::::`````. .:::-------------.     </text>
+        <text x="0" y="252" class="text line l36">.----=-::-:`--==--:`````..```::::.:-----=---:....   `::::--=---------`     </text>
+        <text x="0" y="259" class="text line l37">.----:``-::-==+++++++++=-=+-=*++++=-+++++++++***+=-`````:------------`.    </text>
+        <text x="0" y="266" class="text line l38"> -::``::``:-----====+=--==--=---=====++++++++*#ssc*+:`.``::--::-::::--*-   </text>
+        <text x="0" y="273" class="text line l39"> `-:`:`..``-::-:--=-::--:`---::```:-:------::=#sc*+=--:::-:::--:---:-.:.   </text>
+        <text x="0" y="280" class="text line l40"> .-::``:``::::`:--```::``-::::-----:`::::``..:+=----=-:--:-``:---:-:-      </text>
+    </g>
+</svg>
