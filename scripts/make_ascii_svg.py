@@ -13,7 +13,13 @@ from PIL import Image
 
 def image_to_ascii(image_path, target_cols=72, target_rows=62):
     try:
-        img = Image.open(image_path).convert("L")
+        raw_img = Image.open(image_path)
+        if raw_img.mode in ("RGBA", "LA"):
+            bg = Image.new("RGB", raw_img.size, (0, 0, 0))
+            bg.paste(raw_img, mask=raw_img.split()[-1])
+            img = bg.convert("L")
+        else:
+            img = raw_img.convert("L")
     except Exception as e:
         print(f"Error loading {image_path}: {e}")
         sys.exit(1)
@@ -23,17 +29,31 @@ def image_to_ascii(image_path, target_cols=72, target_rows=62):
     # Custom brightness-to-character density ramp
     chars = " .`:-=+*cs#%@"
 
-    # Normalize brightness to spread across full dynamic range
-    pixels = list(img.getdata())
-    min_p, max_p = min(pixels), max(pixels)
+    # Normalize brightness across non-black pixels to preserve face/suit details
+    pixels = list(
+        img.get_flattened_data()
+        if hasattr(img, "get_flattened_data")
+        else img.getdata()
+    )
+
+    # Find dynamic range of subject (ignoring pure black background)
+    subject_pixels = [p for p in pixels if p > 5]
+    if subject_pixels:
+        min_p = min(subject_pixels)
+        max_p = max(subject_pixels)
+    else:
+        min_p, max_p = 0, 255
     range_p = max(1, max_p - min_p)
 
     ascii_str = ""
     for pixel in pixels:
-        norm = (pixel - min_p) / range_p
-        char_idx = int(norm * (len(chars) - 1))
-        char_idx = max(0, min(len(chars) - 1, char_idx))
-        ascii_str += chars[char_idx]
+        if pixel <= 5:
+            ascii_str += " "
+        else:
+            norm = (pixel - min_p) / range_p
+            char_idx = int(norm * (len(chars) - 1))
+            char_idx = max(0, min(len(chars) - 1, char_idx))
+            ascii_str += chars[char_idx]
 
     ascii_lines = [
         ascii_str[i : i + target_cols] for i in range(0, len(ascii_str), target_cols)
@@ -45,7 +65,6 @@ def generate_svg(ascii_lines, output_path):
     width = 370
     height = 550
 
-    # SVG definition
     svg_header = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}">
     <defs>
         <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
