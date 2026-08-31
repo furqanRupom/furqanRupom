@@ -16,11 +16,13 @@
 
 </div>
 
----
+<br/><br/>
 
 <div align="center">
 <h3><code>The Cipher Stack</code></h3>
 </div>
+
+<br/>
 
 <table align="center">
   <tr>
@@ -29,7 +31,7 @@
   </tr>
 </table>
 
----
+<br/><br/>
 
 <div align="center">
 
@@ -40,7 +42,7 @@ I work primarily with **Node.js**, **NestJS**, **FastAPI**, **PostgreSQL**, **Re
 
 </div>
 
----
+<br/><br/>
 
 <div align="center">
 <h3><code>Contributions</code></h3>
@@ -48,7 +50,7 @@ I work primarily with **Node.js**, **NestJS**, **FastAPI**, **PostgreSQL**, **Re
 <img src="./contrib-heatmap.svg" width="860" />
 </div>
 
----
+<br/><br/>
 
 <div align="center">
 <h3><code>Featured Projects</code></h3>
@@ -116,7 +118,7 @@ I work primarily with **Node.js**, **NestJS**, **FastAPI**, **PostgreSQL**, **Re
 </tr>
 </table>
 
----
+<br/><br/>
 
 <div align="center">
 <h3><code>Tech Arsenal</code></h3>
@@ -160,7 +162,7 @@ I work primarily with **Node.js**, **NestJS**, **FastAPI**, **PostgreSQL**, **Re
 
 </div>
 
----
+<br/><br/>
 
 <div align="center">
 <h3><code>What I'm Up To</code></h3>
@@ -179,7 +181,7 @@ I work primarily with **Node.js**, **NestJS**, **FastAPI**, **PostgreSQL**, **Re
 
 </div>
 
----
+<br/><br/>
 
 <div align="center">
 <h3><code>GitHub Stats &amp; Activity</code></h3>
@@ -193,7 +195,7 @@ I work primarily with **Node.js**, **NestJS**, **FastAPI**, **PostgreSQL**, **Re
 
 </div>
 
----
+<br/><br/>
 
 <div align="center">
 <h3><code>GitHub Achievements</code></h3>
@@ -227,7 +229,7 @@ I work primarily with **Node.js**, **NestJS**, **FastAPI**, **PostgreSQL**, **Re
 
 </div>
 
----
+<br/><br/>
 
 <div align="center">
 <h3><code>Connect</code></h3>
@@ -243,7 +245,7 @@ I work primarily with **Node.js**, **NestJS**, **FastAPI**, **PostgreSQL**, **Re
 
 </div>
 
----
+<br/><br/>
 
 <div align="center">
 
@@ -254,6 +256,8 @@ I work primarily with **Node.js**, **NestJS**, **FastAPI**, **PostgreSQL**, **Re
 `Scan to visit my portfolio`
 
 </div>
+
+<br/><br/>
 
 <div align="center">
 <img src="./footer.svg" width="100%" alt="Footer banner" />
