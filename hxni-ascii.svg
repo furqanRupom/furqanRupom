@@ -1,111 +1,174 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 550" width="370" height="550">
     <defs>
         <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-            <feGaussianBlur stdDeviation="1.2" result="coloredBlur"/>
+            <feGaussianBlur stdDeviation="1.0" result="coloredBlur"/>
             <feMerge>
                 <feMergeNode in="coloredBlur"/>
                 <feMergeNode in="SourceGraphic"/>
             </feMerge>
         </filter>
         <style>
-            .bg { fill: #0d0d0d; stroke: #1a2a2a; stroke-width: 1.5px; }
+            .bg { fill: #0a0f0d; stroke: #1a2a2a; stroke-width: 2px; }
             .text {
-                font-family: "Courier New", Consolas, monospace;
-                font-size: 6.2px;
+                font-family: "Courier New", Consolas, "Liberation Mono", monospace;
+                font-size: 7.4px;
+                letter-spacing: 0.8px;
                 fill: #00FFD1;
-                white-space: pre;
                 filter: url(#glow);
             }
-            .line { opacity: 0; animation: fin 0.4s forwards; }
+            .title {
+                font-family: "Courier New", Consolas, monospace;
+                font-size: 14px;
+                font-weight: bold;
+                fill: #E0E0E0;
+                text-anchor: middle;
+            }
+            .line-sep { stroke: #1a2a2a; stroke-width: 1px; }
+            .line { opacity: 0; animation: fin 0.35s forwards; }
             @keyframes fin {
                 from { opacity: 0; transform: translateY(2px); }
                 to { opacity: 1; transform: translateY(0); }
             }
             .l0 { animation-delay: 0.000s; }
-            .l1 { animation-delay: 0.020s; }
-            .l2 { animation-delay: 0.040s; }
-            .l3 { animation-delay: 0.060s; }
-            .l4 { animation-delay: 0.080s; }
-            .l5 { animation-delay: 0.100s; }
-            .l6 { animation-delay: 0.120s; }
-            .l7 { animation-delay: 0.140s; }
-            .l8 { animation-delay: 0.160s; }
-            .l9 { animation-delay: 0.180s; }
-            .l10 { animation-delay: 0.200s; }
-            .l11 { animation-delay: 0.220s; }
-            .l12 { animation-delay: 0.240s; }
-            .l13 { animation-delay: 0.260s; }
-            .l14 { animation-delay: 0.280s; }
-            .l15 { animation-delay: 0.300s; }
-            .l16 { animation-delay: 0.320s; }
-            .l17 { animation-delay: 0.340s; }
-            .l18 { animation-delay: 0.360s; }
-            .l19 { animation-delay: 0.380s; }
-            .l20 { animation-delay: 0.400s; }
-            .l21 { animation-delay: 0.420s; }
-            .l22 { animation-delay: 0.440s; }
-            .l23 { animation-delay: 0.460s; }
-            .l24 { animation-delay: 0.480s; }
-            .l25 { animation-delay: 0.500s; }
-            .l26 { animation-delay: 0.520s; }
-            .l27 { animation-delay: 0.540s; }
-            .l28 { animation-delay: 0.560s; }
-            .l29 { animation-delay: 0.580s; }
-            .l30 { animation-delay: 0.600s; }
-            .l31 { animation-delay: 0.620s; }
-            .l32 { animation-delay: 0.640s; }
-            .l33 { animation-delay: 0.660s; }
-            .l34 { animation-delay: 0.680s; }
-            .l35 { animation-delay: 0.700s; }
-            .l36 { animation-delay: 0.720s; }
-            .l37 { animation-delay: 0.740s; }
-            .l38 { animation-delay: 0.760s; }
-            .l39 { animation-delay: 0.780s; }
-            .l40 { animation-delay: 0.800s; }
+            .l1 { animation-delay: 0.015s; }
+            .l2 { animation-delay: 0.030s; }
+            .l3 { animation-delay: 0.045s; }
+            .l4 { animation-delay: 0.060s; }
+            .l5 { animation-delay: 0.075s; }
+            .l6 { animation-delay: 0.090s; }
+            .l7 { animation-delay: 0.105s; }
+            .l8 { animation-delay: 0.120s; }
+            .l9 { animation-delay: 0.135s; }
+            .l10 { animation-delay: 0.150s; }
+            .l11 { animation-delay: 0.165s; }
+            .l12 { animation-delay: 0.180s; }
+            .l13 { animation-delay: 0.195s; }
+            .l14 { animation-delay: 0.210s; }
+            .l15 { animation-delay: 0.225s; }
+            .l16 { animation-delay: 0.240s; }
+            .l17 { animation-delay: 0.255s; }
+            .l18 { animation-delay: 0.270s; }
+            .l19 { animation-delay: 0.285s; }
+            .l20 { animation-delay: 0.300s; }
+            .l21 { animation-delay: 0.315s; }
+            .l22 { animation-delay: 0.330s; }
+            .l23 { animation-delay: 0.345s; }
+            .l24 { animation-delay: 0.360s; }
+            .l25 { animation-delay: 0.375s; }
+            .l26 { animation-delay: 0.390s; }
+            .l27 { animation-delay: 0.405s; }
+            .l28 { animation-delay: 0.420s; }
+            .l29 { animation-delay: 0.435s; }
+            .l30 { animation-delay: 0.450s; }
+            .l31 { animation-delay: 0.465s; }
+            .l32 { animation-delay: 0.480s; }
+            .l33 { animation-delay: 0.495s; }
+            .l34 { animation-delay: 0.510s; }
+            .l35 { animation-delay: 0.525s; }
+            .l36 { animation-delay: 0.540s; }
+            .l37 { animation-delay: 0.555s; }
+            .l38 { animation-delay: 0.570s; }
+            .l39 { animation-delay: 0.585s; }
+            .l40 { animation-delay: 0.600s; }
+            .l41 { animation-delay: 0.615s; }
+            .l42 { animation-delay: 0.630s; }
+            .l43 { animation-delay: 0.645s; }
+            .l44 { animation-delay: 0.660s; }
+            .l45 { animation-delay: 0.675s; }
+            .l46 { animation-delay: 0.690s; }
+            .l47 { animation-delay: 0.705s; }
+            .l48 { animation-delay: 0.720s; }
+            .l49 { animation-delay: 0.735s; }
+            .l50 { animation-delay: 0.750s; }
+            .l51 { animation-delay: 0.765s; }
+            .l52 { animation-delay: 0.780s; }
+            .l53 { animation-delay: 0.795s; }
+            .l54 { animation-delay: 0.810s; }
+            .l55 { animation-delay: 0.825s; }
+            .l56 { animation-delay: 0.840s; }
+            .l57 { animation-delay: 0.855s; }
+            .l58 { animation-delay: 0.870s; }
+            .l59 { animation-delay: 0.885s; }
+            .l60 { animation-delay: 0.900s; }
+            .l61 { animation-delay: 0.915s; }
         </style>
     </defs>
+
+    <!-- Background Card -->
     <rect class="bg" width="100%" height="100%" rx="12" />
-    <g transform="translate(14, 24)">
-        <text x="0" y="0" class="text line l0">                                 .`--::``.                                 </text>
-        <text x="0" y="7" class="text line l1">                              `-==========--:.                             </text>
-        <text x="0" y="14" class="text line l2">                           .:-=-:::::::`:::::::`                           </text>
-        <text x="0" y="21" class="text line l3">                          `:---:--:`````.```::`::.                         </text>
-        <text x="0" y="28" class="text line l4">                         `::::--``.........````.`:                         </text>
-        <text x="0" y="35" class="text line l5">                         ``-=-`....`...`:::`..`..``                        </text>
-        <text x="0" y="42" class="text line l6">                        .``..``````.`:-=+*++==`..`:                        </text>
-        <text x="0" y="49" class="text line l7">                        .:.`-+*+-:`:-=+*****cc-`.::                        </text>
-        <text x="0" y="56" class="text line l8">                        .` -cc##scccccccssssss+..:.                        </text>
-        <text x="0" y="63" class="text line l9">                        ..-c*++===+****+===++cc-.`                         </text>
-        <text x="0" y="70" class="text line l10">                        .:+c+==-::`:=+=``:-+++c*`-`                        </text>
-        <text x="0" y="77" class="text line l11">                        --*ss+=::--+ss+::`:--+c*`+:                        </text>
-        <text x="0" y="84" class="text line l12">                        -+cs#%#s**s#%s**++**cssc-=.                        </text>
-        <text x="0" y="91" class="text line l13">                        `*ccssc+:+c*cscc+=cs#scc++                         </text>
-        <text x="0" y="98" class="text line l14">                         -***+-.:*-``::-=``=**+*=`                         </text>
-        <text x="0" y="105" class="text line l15">                         .++-:..:+**+*+*-. `-==+.                          </text>
-        <text x="0" y="112" class="text line l16">                          `=--=+c###s#ss*+::-==`                           </text>
-        <text x="0" y="119" class="text line l17">                          .:--+c#c+===*ccc=--=:                            </text>
-        <text x="0" y="126" class="text line l18">                         .::=-=c##scccsssc+=--.                            </text>
-        <text x="0" y="133" class="text line l19">                    ..```--`+*-:-==+++***=-=+:`:.                          </text>
-        <text x="0" y="140" class="text line l20">               .`::===-.---:`*s*-`....`:-=**:.--:`.`.                      </text>
-        <text x="0" y="147" class="text line l21">          .`---==-::-+:.====::*s#s*+++*csc+`.:---:.:=-:`.                  </text>
-        <text x="0" y="154" class="text line l22">        `-===-:==:--:=-`++=-``:+cssssccc+:``:=-==:.`--:---:`.              </text>
-        <text x="0" y="161" class="text line l23">       -=====-:-+:-=`--`=:.   .:+cccc*+=:``. `-==:.::`::-:----:            </text>
-        <text x="0" y="168" class="text line l24">     .-=====---:-::-:--`:.`..`  .-*cccc+`. .   `-`.::.`--`:-----.          </text>
-        <text x="0" y="175" class="text line l25">     -====--:::-``:=---:=-=:`-:`..`-*c=`  ``..:.:`.-:`:-::::-:---.         </text>
-        <text x="0" y="182" class="text line l26">    :=-===--:``:``:=-=-:=:+-`----```-:. .:-``--:-::=-:::-::-------.        </text>
-        <text x="0" y="189" class="text line l27">   .=-------::````-----=--==::=:-::::`..--:-----=:----::::--:-----:        </text>
-        <text x="0" y="196" class="text line l28">   :::---:::::`.`.:----=-===-:-::::::-:-=--======-=--=::`:::-------.       </text>
-        <text x="0" y="203" class="text line l29">   -::::---::::``.:----=-====---``:==--=--===+====----`.`:::::::---:       </text>
-        <text x="0" y="210" class="text line l30">  `=-==--:-:::::..`----======-:-:.-==:--:=+=++=====---..`:::::---:::       </text>
-        <text x="0" y="217" class="text line l31">  ----===-:::``:` .-----======--:.-=-:-:-+========-:-`.:--------:::-.      </text>
-        <text x="0" y="224" class="text line l32"> `=--===-----::``  :----===------.:--:-`-======----:: `-----:--::::-`      </text>
-        <text x="0" y="231" class="text line l33"> -=-=====----:::`. `:--------:---.:::::`-==--==--::-` :--::::::::---:      </text>
-        <text x="0" y="238" class="text line l34">.=-::-=----::::::. .`::::::::``:-.`:::`.`---::---``. `:::-::::::-----      </text>
-        <text x="0" y="245" class="text line l35">.:`:-----::``````.  ......`:```::.`-::` `::::`````. .:::-------------.     </text>
-        <text x="0" y="252" class="text line l36">.----=-::-:`--==--:`````..```::::.:-----=---:....   `::::--=---------`     </text>
-        <text x="0" y="259" class="text line l37">.----:``-::-==+++++++++=-=+-=*++++=-+++++++++***+=-`````:------------`.    </text>
-        <text x="0" y="266" class="text line l38"> -::``::``:-----====+=--==--=---=====++++++++*#ssc*+:`.``::--::-::::--*-   </text>
-        <text x="0" y="273" class="text line l39"> `-:`:`..``-::-:--=-::--:`---::```:-:------::=#sc*+=--:::-:::--:---:-.:.   </text>
-        <text x="0" y="280" class="text line l40"> .-::``:``::::`:--```::``-::::-----:`::::``..:+=----=-:--:-``:---:-:-      </text>
+
+    <!-- Terminal Header (matching info-card.svg) -->
+    <g transform="translate(15, 20)">
+        <circle cx="0" cy="0" r="6" fill="#FF5F56" />
+        <circle cx="20" cy="0" r="6" fill="#FFBD2E" />
+        <circle cx="40" cy="0" r="6" fill="#27C93F" />
+    </g>
+    <text x="185" y="25" class="title">furqanRupom.sh</text>
+    <line x1="0" y1="40" x2="370" y2="40" class="line-sep" />
+
+    <!-- ASCII Art Portrait -->
+    <g transform="translate(185, 58)">
+        <text x="0" y="0.0" text-anchor="middle" class="text line l0">                                 .``..                                  </text>
+        <text x="0" y="7.7" text-anchor="middle" class="text line l1">                               `=*c**+=-:`                              </text>
+        <text x="0" y="15.4" text-anchor="middle" class="text line l2">                            .-*+=-----====-`                            </text>
+        <text x="0" y="23.1" text-anchor="middle" class="text line l3">                           :++-`:::::::-::::-`                          </text>
+        <text x="0" y="30.8" text-anchor="middle" class="text line l4">                          :--:`--:`::``:::::`=`                         </text>
+        <text x="0" y="38.5" text-anchor="middle" class="text line l5">                         :-----=-:`````.```:`:-.                        </text>
+        <text x="0" y="46.2" text-anchor="middle" class="text line l6">                        `::::==```.......``::.`-                        </text>
+        <text x="0" y="53.9" text-anchor="middle" class="text line l7">                        `:::::`. ....``````.`..:.                       </text>
+        <text x="0" y="61.6" text-anchor="middle" class="text line l8">                        `:=+-`..```..``::` .` .``                       </text>
+        <text x="0" y="69.3" text-anchor="middle" class="text line l9">                       .`..:..``...`:-+c*+==` .``                       </text>
+        <text x="0" y="77.0" text-anchor="middle" class="text line l10">                       .:`. :-::```:=+*c**+*-..::                       </text>
+        <text x="0" y="84.7" text-anchor="middle" class="text line l11">                       .:`:+cc+:``:=***++*cc=`.::                       </text>
+        <text x="0" y="92.4" text-anchor="middle" class="text line l12">                       .` :cs%%s*****ccss#ss+` :`                       </text>
+        <text x="0" y="100.1" text-anchor="middle" class="text line l13">                       ...cccsss##ssss######c`.:.                       </text>
+        <text x="0" y="107.8" text-anchor="middle" class="text line l14">                       ..=s*==-:-+*+**=::-=cs+.`                        </text>
+        <text x="0" y="115.5" text-anchor="middle" class="text line l15">                       .`*s***+-:::==:::+*c+cc`:.                       </text>
+        <text x="0" y="123.2" text-anchor="middle" class="text line l16">                       `-*s+::.`:`+sc:`:`-=*c*`*:                       </text>
+        <text x="0" y="130.9" text-anchor="middle" class="text line l17">                       --*#s*=::-=s#c=::`=-+c*:*:                       </text>
+        <text x="0" y="138.6" text-anchor="middle" class="text line l18">                       -+c#%%scccs##c++===cssc:=`                       </text>
+        <text x="0" y="146.3" text-anchor="middle" class="text line l19">                       -ccs%%%s=c%@%#c**####sc++                        </text>
+        <text x="0" y="154.0" text-anchor="middle" class="text line l20">                       :ccs#sc=`scs##sc:*s##cc*+                        </text>
+        <text x="0" y="161.7" text-anchor="middle" class="text line l21">                        =c*c*=`-+..:-:*:`+cs**+-                        </text>
+        <text x="0" y="169.4" text-anchor="middle" class="text line l22">                        :c++-..+*=::`:-- `+*+*:                         </text>
+        <text x="0" y="177.1" text-anchor="middle" class="text line l23">                        .*+-`. :+****c=`  -==+.                         </text>
+        <text x="0" y="184.8" text-anchor="middle" class="text line l24">                         -+====*%%%%##c-::-=+-                          </text>
+        <text x="0" y="192.5" text-anchor="middle" class="text line l25">                         .=-=+s#sssssccs=::=+.                          </text>
+        <text x="0" y="200.2" text-anchor="middle" class="text line l26">                         .:-=*ss*--=+csc+--=:                           </text>
+        <text x="0" y="207.9" text-anchor="middle" class="text line l27">                         ::-=*###c+=*sss*=--`                           </text>
+        <text x="0" y="215.6" text-anchor="middle" class="text line l28">                       .:--+:=c########c*=-+`.                          </text>
+        <text x="0" y="223.3" text-anchor="middle" class="text line l29">                     `:`--`c*::=++++*c*+=-*=`-.                         </text>
+        <text x="0" y="231.0" text-anchor="middle" class="text line l30">                 `-===.:=-`-#c-...``::-:-c*.:-:`.                       </text>
+        <text x="0" y="238.7" text-anchor="middle" class="text line l31">             .`:=-===-.==--.*#s+:...`:=*sc`.---:.::.                    </text>
+        <text x="0" y="246.4" text-anchor="middle" class="text line l32">          `:=====:::+-.====::c##s*++*s##c: `---:.:+=:`                  </text>
+        <text x="0" y="254.1" text-anchor="middle" class="text line l33">        .-+=-:-+----=-.+==+=`-c###ss##s+:.`--==-.:=-:==:.               </text>
+        <text x="0" y="261.8" text-anchor="middle" class="text line l34">       .=-=+-:-+--=:--`*++: ::=cssccc*=:.::===+-.:-:-:--=-`             </text>
+        <text x="0" y="269.5" text-anchor="middle" class="text line l35">      .======-:+-:+:-=`+:.   `-*csc*+=-::` .=+=: ::`-:-:-==-.           </text>
+        <text x="0" y="277.2" text-anchor="middle" class="text line l36">      ====+=--:=-:=:-=`:   .  .-ccsc**=`     -=`.::.`--::---=.          </text>
+        <text x="0" y="284.9" text-anchor="middle" class="text line l37">     :===--=---:::=--=`-:-.`:. .:ccssc:  `.   :`.::``=:::-:---          </text>
+        <text x="0" y="292.6" text-anchor="middle" class="text line l38">    .=====::-:-:`:==-=:=-=`:=:`.``*sc:  `:. :`::.-:`:-::::-:-=:         </text>
+        <text x="0" y="300.3" text-anchor="middle" class="text line l39">    :+===-=-``::`:====:=-+-`---`:``*:. .-:.:-:-:`=-:::-::---=-=.        </text>
+        <text x="0" y="308.0" text-anchor="middle" class="text line l40">    ==-===-::`::.---=--=:+=`----``:``. --``=--=::=-:::-`--==--=:        </text>
+        <text x="0" y="315.7" text-anchor="middle" class="text line l41">   `=---===::``:.:-=--=--++:-=:-::-:`.:=-:==--=---=-:-`:--------        </text>
+        <text x="0" y="323.4" text-anchor="middle" class="text line l42">   :--=-::---`.:.:----=-==+::=:-::`:::==:=+====-=--=:::-:`:-----`       </text>
+        <text x="0" y="331.1" text-anchor="middle" class="text line l43">   :::-==-:`::``.:---==-==+-:-::::-=:-+--++=+====--=``::`-=-----:       </text>
+        <text x="0" y="338.8" text-anchor="middle" class="text line l44">  .=::`:=--:::````----====+=:--``=+=:==:=+++++===---`.`:--:::----       </text>
+        <text x="0" y="346.5" text-anchor="middle" class="text line l45">  `=---::=---::`.`---=======---``=+=:+--++++++===---..:::`::-----.      </text>
+        <text x="0" y="354.2" text-anchor="middle" class="text line l46">  :===+=-:-::::`.`---===+===--=``==--=:=++++++===-=: `:::------::.      </text>
+        <text x="0" y="361.9" text-anchor="middle" class="text line l47">  =--====-:-:`::..-----=+====--:`==---:++=+++====:=`.---------::-`      </text>
+        <text x="0" y="369.6" text-anchor="middle" class="text line l48"> .=-====-----:`:. :---=======-=:`=-:-::+=========:- :--------:::::      </text>
+        <text x="0" y="377.3" text-anchor="middle" class="text line l49"> :=--====-----:`` `---=====-==-:`----`:=+=====::--: :-=--:--::::-:      </text>
+        <text x="0" y="385.0" text-anchor="middle" class="text line l50"> -=======----:::` .:---=----:--:.-:::`-=+--===-:--` ---:`:---:----      </text>
+        <text x="0" y="392.7" text-anchor="middle" class="text line l51"> ==-======---:::` .:--------``-:.::::.`:-------::: `-:::::`:::----.     </text>
+        <text x="0" y="400.4" text-anchor="middle" class="text line l52">.=-::-=--=-:::::`  `::::::::``::.:-::..:--::--:``. :-:-=:::-------`     </text>
+        <text x="0" y="408.1" text-anchor="middle" class="text line l53">`:`:--:==::::````  .``...`:```::.:-::..--:::`::`.  :::==-=--------`     </text>
+        <text x="0" y="415.8" text-anchor="middle" class="text line l54">`--=--+=:::.`::``    .....:`.`::.--:: `::```..... `::=--===-------:     </text>
+        <text x="0" y="423.5" text-anchor="middle" class="text line l55">.=--==:`--`==+*++=--:``.`:`:---:`:====++++-..     `::::-==-==-----:     </text>
+        <text x="0" y="431.2" text-anchor="middle" class="text line l56">.=--=:``-`-==++++++**++-=*-=*++++-=***+++++cc*+=:..``:----==------:     </text>
+        <text x="0" y="438.9" text-anchor="middle" class="text line l57"> ---:.:=::--====+=+=++--++-+*+++++=++++++++c#sss*+:``::-=-:-=-:---:-`   </text>
+        <text x="0" y="446.6" text-anchor="middle" class="text line l58"> -:-.`-:.::-=--====++--+=:=-:`:=+===+++++++*##ss*=`..```:=-::-:::-=s*.  </text>
+        <text x="0" y="454.3" text-anchor="middle" class="text line l59"> :-`.:: ``:-:---:=+=:-=-`---:`..`---==------###s*=:-:`-=::-=-:--:-`:`   </text>
+        <text x="0" y="462.0" text-anchor="middle" class="text line l60"> `=`::.```-::-::==:`:-:`:-:-------::----::`:#c+====---`-:`:-=-----`     </text>
+        <text x="0" y="469.7" text-anchor="middle" class="text line l61"> .---.::`::::``--``::`.:-::::--=--:::::`.. .---:-==-:-=:-``:------.     </text>
     </g>
 </svg>

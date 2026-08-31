@@ -1,97 +1,126 @@
 #!/usr/bin/env python3
+"""Convert portrait image to animated ASCII art SVG in Dark Neon Teal.
+
+Matches dimensions and styling of info-card.svg (width: 370, height: 550).
+Produces: hxni-ascii.svg (in project root)
+"""
+
 import os
 import sys
 
 from PIL import Image
 
 
-def image_to_ascii(image_path, new_width=75):
+def image_to_ascii(image_path, target_cols=72, target_rows=62):
     try:
         img = Image.open(image_path).convert("L")
     except Exception as e:
         print(f"Error loading {image_path}: {e}")
         sys.exit(1)
 
-    width, height = img.size
-    aspect_ratio = height / float(width)
-    new_height = int(
-        aspect_ratio * new_width * 0.55
-    )  # 0.55 corrects character aspect ratio
-    img = img.resize((new_width, new_height))
+    img = img.resize((target_cols, target_rows), Image.Resampling.LANCZOS)
 
-    pixels = img.getdata()
-    chars = " .:-=+*cs#%@"
+    # Custom brightness-to-character density ramp
+    chars = " .`:-=+*cs#%@"
+
+    # Normalize brightness to spread across full dynamic range
+    pixels = list(img.getdata())
+    min_p, max_p = min(pixels), max(pixels)
+    range_p = max(1, max_p - min_p)
 
     ascii_str = ""
     for pixel in pixels:
-        # map 0-255 to 0-len(chars)-1
-        char_idx = int((pixel / 255.0) * (len(chars) - 1))
+        norm = (pixel - min_p) / range_p
+        char_idx = int(norm * (len(chars) - 1))
+        char_idx = max(0, min(len(chars) - 1, char_idx))
         ascii_str += chars[char_idx]
 
-    ascii_img = [
-        ascii_str[index : index + new_width]
-        for index in range(0, len(ascii_str), new_width)
+    ascii_lines = [
+        ascii_str[i : i + target_cols] for i in range(0, len(ascii_str), target_cols)
     ]
-    return ascii_img
+    return ascii_lines
 
 
 def generate_svg(ascii_lines, output_path):
     width = 370
-    # Calculate height based on lines
-    height = max(550, len(ascii_lines) * 7 + 40)
+    height = 550
 
+    # SVG definition
     svg_header = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}">
     <defs>
-        <filter id="glow">
-            <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+        <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="1.0" result="coloredBlur"/>
             <feMerge>
                 <feMergeNode in="coloredBlur"/>
                 <feMergeNode in="SourceGraphic"/>
             </feMerge>
         </filter>
         <style>
-            .bg {{ fill: #0d0d0d; rx: 12px; stroke: #1a2a2a; stroke-width: 2px; }}
+            .bg {{ fill: #0a0f0d; stroke: #1a2a2a; stroke-width: 2px; }}
             .text {{
-                font-family: "Courier New", monospace;
-                font-size: 6px;
+                font-family: "Courier New", Consolas, "Liberation Mono", monospace;
+                font-size: 7.4px;
+                letter-spacing: 0.8px;
                 fill: #00FFD1;
-                white-space: pre;
                 filter: url(#glow);
             }}
-            .line {{ opacity: 0; animation: fadeIn 0.5s forwards; }}
-            @keyframes fadeIn {{
-                to {{ opacity: 1; }}
+            .title {{
+                font-family: "Courier New", Consolas, monospace;
+                font-size: 14px;
+                font-weight: bold;
+                fill: #E0E0E0;
+                text-anchor: middle;
+            }}
+            .line-sep {{ stroke: #1a2a2a; stroke-width: 1px; }}
+            .line {{ opacity: 0; animation: fin 0.35s forwards; }}
+            @keyframes fin {{
+                from {{ opacity: 0; transform: translateY(2px); }}
+                to {{ opacity: 1; transform: translateY(0); }}
             }}
 '''
 
     styles = []
     for i in range(len(ascii_lines)):
-        delay = i * 0.03
-        styles.append(f"            .l{i} {{ animation-delay: {delay}s; }}")
+        delay = i * 0.015
+        styles.append(f"            .l{i} {{ animation-delay: {delay:.3f}s; }}")
 
     svg_header += "\n".join(styles)
-    svg_header += """
+    svg_header += f'''
         </style>
     </defs>
-    <rect class="bg" width="100%" height="100%" />
-    <g transform="translate(10, 20)">
-"""
+
+    <!-- Background Card -->
+    <rect class="bg" width="100%" height="100%" rx="12" />
+
+    <!-- Terminal Header (matching info-card.svg) -->
+    <g transform="translate(15, 20)">
+        <circle cx="0" cy="0" r="6" fill="#FF5F56" />
+        <circle cx="20" cy="0" r="6" fill="#FFBD2E" />
+        <circle cx="40" cy="0" r="6" fill="#27C93F" />
+    </g>
+    <text x="185" y="25" class="title">furqanRupom.sh</text>
+    <line x1="0" y1="40" x2="{width}" y2="40" class="line-sep" />
+
+    <!-- ASCII Art Portrait -->
+    <g transform="translate(185, 58)">
+'''
 
     svg_lines = []
+    line_step = 7.7
     for i, line in enumerate(ascii_lines):
-        # Escape XML chars
-        line = line.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-        y_pos = i * 7
+        escaped_line = (
+            line.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        )
+        y_pos = i * line_step
         svg_lines.append(
-            f'        <text x="0" y="{y_pos}" class="text line l{i}">{line}</text>'
+            f'        <text x="0" y="{y_pos:.1f}" text-anchor="middle" class="text line l{i}">{escaped_line}</text>'
         )
 
-    svg_footer = """
-    </g>
+    svg_footer = """    </g>
 </svg>"""
 
-    with open(output_path, "w") as f:
-        f.write(svg_header + "\n".join(svg_lines) + svg_footer)
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(svg_header + "\n".join(svg_lines) + "\n" + svg_footer)
 
 
 if __name__ == "__main__":
