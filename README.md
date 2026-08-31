@@ -2,25 +2,11 @@
 
 <img src="./banner.svg" width="100%" alt="Furqan Ahmad Rupom - Full Stack & Backend Developer" />
 
-<br/><br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=furqanRupom&style=for-the-badge&color=00FFD1&labelColor=0d1117&label=PROFILE+VIEWS)](https://github.com/furqanRupom)
-&nbsp;
-[![Open to Work](https://img.shields.io/badge/STATUS-OPEN_TO_WORK-00FFD1?style=for-the-badge&logo=openstatus&logoColor=00FFD1&labelColor=0d1117)](mailto:furqanrupom978@gmail.com)
-&nbsp;
-[![Location](https://img.shields.io/badge/LOC-BANGLADESH-00FFA3?style=for-the-badge&logo=googlemaps&logoColor=00FFA3&labelColor=0d1117)](https://github.com/furqanRupom)
-
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=1200&color=00FFD1&center=true&vCenter=true&multiline=false&repeat=true&width=620&height=36&lines=Building+scalable+backend+systems;Crafting+clean+REST+APIs;Turning+ideas+into+production+software;Learning.+Building.+Improving.;Full+stack+first.+Backend+deep." />
 
 </div>
 
-<br/><br/>
 
-<div align="center">
-<h3><code>The Cipher Stack</code></h3>
-</div>
 
 <br/>
 
