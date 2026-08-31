@@ -1,18 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d0d0d,50:003d33,100:00FFD1&height=200&section=header&text=Furqan%20Ahmad%20Rupom&fontSize=36&fontColor=00FFD1&animation=fadeIn&fontAlignY=35&desc=Backend%20Developer%20%E2%94%82%20Full%20Stack%20Engineer&descSize=14&descAlignY=55&descColor=C0C0C0" width="100%"/>
+<img src="./banner.svg" width="100%" alt="Furqan Ahmad Rupom - Backend & Full Stack Developer" />
 
-<br/>
+<br/><br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=furqanRupom&style=flat-square&color=00FFD1&label=Profile+Views)](https://github.com/furqanRupom)
+[![Profile Views](https://komarev.com/ghpvc/?username=furqanRupom&style=for-the-badge&color=00FFD1&labelColor=0d1117&label=PROFILE+VIEWS)](https://github.com/furqanRupom)
 &nbsp;
-![Open to Work](https://img.shields.io/badge/Open_to_Work-00FFD1?style=flat-square&logo=openstatus&logoColor=0d0d0d)
+[![Open to Work](https://img.shields.io/badge/STATUS-OPEN_TO_WORK-00FFD1?style=for-the-badge&logo=openstatus&logoColor=00FFD1&labelColor=0d1117)](mailto:furqanrupom978@gmail.com)
 &nbsp;
-![Location](https://img.shields.io/badge/Bangladesh-0d1117?style=flat-square&logo=googlemaps&logoColor=00FFD1)
+[![Location](https://img.shields.io/badge/LOC-BANGLADESH-00FFA3?style=for-the-badge&logo=googlemaps&logoColor=00FFA3&labelColor=0d1117)](https://github.com/furqanRupom)
 
-<br/>
+<br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=00FFD1&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=35&lines=Building+scalable+backend+systems;Crafting+clean+REST+APIs;Turning+ideas+into+production+software;Learning.+Building.+Improving.;Backend+first.+Full+stack+when+needed." />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=1200&color=00FFD1&center=true&vCenter=true&multiline=false&repeat=true&width=620&height=36&lines=Building+scalable+backend+systems;Crafting+clean+REST+APIs;Turning+ideas+into+production+software;Learning.+Building.+Improving.;Backend+first.+Full+stack+when+needed." />
 
 </div>
 
@@ -182,27 +182,48 @@ I work primarily with **Node.js**, **NestJS**, **FastAPI**, **PostgreSQL**, **Re
 ---
 
 <div align="center">
-<h3><code>GitHub Stats</code></h3>
+<h3><code>GitHub Stats &amp; Activity</code></h3>
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=furqanRupom&show_icons=true&theme=react&bg_color=0d0d0d&title_color=00FFD1&text_color=C0C0C0&icon_color=00FFD1&border_color=1a2a2a&hide_border=false" height="170" />
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=furqanRupom&layout=compact&theme=react&bg_color=0d0d0d&title_color=00FFD1&text_color=C0C0C0&border_color=1a2a2a&hide_border=false" height="170" />
+<img src="./github-stats.svg" width="860" alt="GitHub Metrics and Tech Distribution" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=furqanRupom&theme=react&background=0d0d0d&ring=00FFD1&fire=00FFA3&currStreakLabel=00FFD1&sideLabels=C0C0C0&currStreakNum=C0C0C0&sideNums=C0C0C0&dates=666666&border=1a2a2a" width="520"/>
+<img src="https://streak-stats.demolab.com?user=furqanRupom&theme=dark&background=080e0c&ring=00FFD1&fire=00FFA3&currStreakLabel=00FFD1&sideLabels=C0C0C0&currStreakNum=00FFD1&sideNums=C0C0C0&dates=5A7E77&border=162925&border_radius=12" width="520" alt="GitHub Streak Stats"/>
 
 </div>
 
 ---
 
-<!-- Achievements section - update badges based on actual GitHub achievements -->
 <div align="center">
-<h3><code>Achievements</code></h3>
+<h3><code>GitHub Achievements</code></h3>
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=furqanRupom&theme=darkhub&no-bg=true&no-frame=true&column=4&margin-w=15&margin-h=15" width="500"/>
+<table align="center">
+  <tr>
+    <td align="center" width="160">
+      <a href="https://github.com/furqanRupom?tab=achievements">
+        <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="80" alt="Pull Shark" />
+        <br/>
+        <sub><b>Pull Shark</b></sub>
+      </a>
+    </td>
+    <td align="center" width="160">
+      <a href="https://github.com/furqanRupom?tab=achievements">
+        <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="80" alt="YOLO" />
+        <br/>
+        <sub><b>YOLO</b></sub>
+      </a>
+    </td>
+    <td align="center" width="160">
+      <a href="https://github.com/furqanRupom?tab=achievements">
+        <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="80" alt="Quickdraw" />
+        <br/>
+        <sub><b>Quickdraw</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -234,8 +255,6 @@ I work primarily with **Node.js**, **NestJS**, **FastAPI**, **PostgreSQL**, **Re
 
 </div>
 
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003d33,100:00FFD1&height=120&section=footer" width="100%"/>
-
-<p align="center"><code>Built with curiosity · powered by code · always learning</code></p>
+<div align="center">
+<img src="./footer.svg" width="100%" alt="Footer banner" />
+</div>

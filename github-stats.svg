@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200" width="100%" height="200">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080e0c"/>
+      <stop offset="100%" stop-color="#050908"/>
+    </linearGradient>
+
+    <linearGradient id="barTeal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FFD1"/>
+      <stop offset="100%" stop-color="#00FFA3"/>
+    </linearGradient>
+
+    <linearGradient id="barCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ABDC6"/>
+      <stop offset="100%" stop-color="#00FFD1"/>
+    </linearGradient>
+
+    <linearGradient id="barBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2D7FF9"/>
+      <stop offset="100%" stop-color="#0ABDC6"/>
+    </linearGradient>
+
+    <filter id="neon" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono { font-family: "JetBrains Mono", "Fira Code", "Courier New", monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+      .stat-val { font-size: 20px; font-weight: 800; fill: #00FFD1; }
+      .stat-lbl { font-size: 11px; font-weight: 500; fill: #7E9C96; letter-spacing: 0.5px; }
+      .title { font-size: 13px; font-weight: 700; fill: #00FFD1; letter-spacing: 1.5px; }
+    </style>
+  </defs>
+
+  <!-- Left Card: Metrics -->
+  <g transform="translate(0, 0)">
+    <rect x="0" y="0" width="418" height="200" rx="12" fill="url(#cardGrad)" stroke="#162925" stroke-width="1.5"/>
+    <line x1="20" y1="36" x2="398" y2="36" stroke="#162925" stroke-width="1"/>
+
+    <text x="20" y="24" class="mono title">⚡ GITHUB METRICS</text>
+    <circle cx="394" cy="20" r="4" fill="#00FFA3" filter="url(#neon)"/>
+
+    <!-- Stat 1: Total Contributions -->
+    <g transform="translate(24, 70)">
+      <circle cx="12" cy="12" r="16" fill="#00FFD1" fill-opacity="0.08"/>
+      <text x="12" y="16" text-anchor="middle" fill="#00FFD1" font-size="14">✦</text>
+      <text x="40" y="10" class="mono stat-val">391</text>
+      <text x="40" y="26" class="mono stat-lbl">Total Contributions</text>
+    </g>
+
+    <!-- Stat 2: Public Repos -->
+    <g transform="translate(230, 70)">
+      <circle cx="12" cy="12" r="16" fill="#00FFA3" fill-opacity="0.08"/>
+      <text x="12" y="16" text-anchor="middle" fill="#00FFA3" font-size="14">📦</text>
+      <text x="40" y="10" class="mono stat-val">117</text>
+      <text x="40" y="26" class="mono stat-lbl">Public Repositories</text>
+    </g>
+
+    <!-- Stat 3: Current Streak -->
+    <g transform="translate(24, 136)">
+      <circle cx="12" cy="12" r="16" fill="#00FFD1" fill-opacity="0.08"/>
+      <text x="12" y="16" text-anchor="middle" fill="#00FFD1" font-size="14">🔥</text>
+      <text x="40" y="10" class="mono stat-val">78 <tspan font-size="12" fill="#7E9C96">days</tspan></text>
+      <text x="40" y="26" class="mono stat-lbl">Current Streak</text>
+    </g>
+
+    <!-- Stat 4: Longest Streak -->
+    <g transform="translate(230, 136)">
+      <circle cx="12" cy="12" r="16" fill="#00FFA3" fill-opacity="0.08"/>
+      <text x="12" y="16" text-anchor="middle" fill="#00FFA3" font-size="14">🏆</text>
+      <text x="40" y="10" class="mono stat-val">78 <tspan font-size="12" fill="#7E9C96">days</tspan></text>
+      <text x="40" y="26" class="mono stat-lbl">Longest Streak</text>
+    </g>
+  </g>
+
+  <!-- Right Card: Tech Distribution -->
+  <g transform="translate(442, 0)">
+    <rect x="0" y="0" width="418" height="200" rx="12" fill="url(#cardGrad)" stroke="#162925" stroke-width="1.5"/>
+    <line x1="20" y1="36" x2="398" y2="36" stroke="#162925" stroke-width="1"/>
+
+    <text x="20" y="24" class="mono title">📊 CORE TECH SPECTRUM</text>
+    <circle cx="394" cy="20" r="4" fill="#00FFD1" filter="url(#neon)"/>
+
+    <!-- Segmented Progress Bar -->
+    <g transform="translate(24, 56)">
+      <rect x="0" y="0" width="144" height="8" rx="4" fill="url(#barTeal)"/>
+      <rect x="148" y="0" width="108" height="8" rx="4" fill="url(#barCyan)"/>
+      <rect x="260" y="0" width="65" height="8" rx="4" fill="url(#barBlue)"/>
+      <rect x="329" y="0" width="41" height="8" rx="4" fill="#5A7E77"/>
+    </g>
+
+    <!-- Language 1: TypeScript / JavaScript -->
+    <g transform="translate(24, 88)">
+      <circle cx="4" cy="4" r="4" fill="#00FFD1"/>
+      <text x="16" y="8" class="mono" font-size="12" font-weight="600" fill="#E6FFFA">TypeScript / Node.js</text>
+      <text x="370" y="8" text-anchor="end" class="mono" font-size="12" font-weight="700" fill="#00FFD1">40%</text>
+    </g>
+
+    <!-- Language 2: Python / FastAPI -->
+    <g transform="translate(24, 116)">
+      <circle cx="4" cy="4" r="4" fill="#0ABDC6"/>
+      <text x="16" y="8" class="mono" font-size="12" font-weight="600" fill="#E6FFFA">Python / FastAPI</text>
+      <text x="370" y="8" text-anchor="end" class="mono" font-size="12" font-weight="700" fill="#0ABDC6">30%</text>
+    </g>
+
+    <!-- Language 3: React / Next.js / Frontend -->
+    <g transform="translate(24, 144)">
+      <circle cx="4" cy="4" r="4" fill="#2D7FF9"/>
+      <text x="16" y="8" class="mono" font-size="12" font-weight="600" fill="#E6FFFA">React / Next.js / UI</text>
+      <text x="370" y="8" text-anchor="end" class="mono" font-size="12" font-weight="700" fill="#2D7FF9">18%</text>
+    </g>
+
+    <!-- Language 4: Database / DevOps -->
+    <g transform="translate(24, 172)">
+      <circle cx="4" cy="4" r="4" fill="#5A7E77"/>
+      <text x="16" y="8" class="mono" font-size="12" font-weight="600" fill="#8EABA4">PostgreSQL / Docker / Other</text>
+      <text x="370" y="8" text-anchor="end" class="mono" font-size="12" font-weight="700" fill="#7E9C96">12%</text>
+    </g>
+  </g>
+</svg>

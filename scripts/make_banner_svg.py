@@ -1,0 +1,161 @@
+#!/usr/bin/env python3
+"""Generate a high-tech, ultra-cinematic dark neon teal header banner SVG.
+
+Produces: banner.svg (in project root)
+"""
+
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUTPUT_FILE = os.path.join(BASE_DIR, "banner.svg")
+
+
+def generate_banner():
+    width = 900
+    height = 240
+
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="100%" height="{height}">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070c0b"/>
+      <stop offset="50%" stop-color="#0a1210"/>
+      <stop offset="100%" stop-color="#050807"/>
+    </linearGradient>
+
+    <linearGradient id="tealGlowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FFA3" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#00FFD1" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#00FFD1" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#0ABDC6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00FFA3" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#E6FFFA"/>
+      <stop offset="70%" stop-color="#00FFD1"/>
+      <stop offset="100%" stop-color="#00FFA3"/>
+    </linearGradient>
+
+    <linearGradient id="subtextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FFD1"/>
+      <stop offset="50%" stop-color="#80FFE8"/>
+      <stop offset="100%" stop-color="#00FFA3"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyberGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00FFD1" stroke-width="0.5" stroke-opacity="0.07"/>
+      <circle cx="0" cy="0" r="1" fill="#00FFD1" fill-opacity="0.15"/>
+    </pattern>
+
+    <!-- Glow Filters -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur1"/>
+      <feGaussianBlur stdDeviation="8" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes pulseGlow {{
+        0%, 100% {{ opacity: 0.7; }}
+        50% {{ opacity: 1; }}
+      }}
+      @keyframes scanline {{
+        0% {{ transform: translateY(-240px); }}
+        100% {{ transform: translateY(240px); }}
+      }}
+      @keyframes beacon {{
+        0%, 100% {{ opacity: 0.3; r: 3.5px; }}
+        50% {{ opacity: 1; r: 4.5px; }}
+      }}
+      .pulse {{ animation: pulseGlow 4s ease-in-out infinite; }}
+      .beacon {{ animation: beacon 2s ease-in-out infinite; }}
+      .mono {{ font-family: "JetBrains Mono", "Fira Code", "Courier New", monospace; }}
+      .sans {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }}
+    </style>
+  </defs>
+
+  <!-- Base Card -->
+  <rect width="100%" height="100%" rx="16" fill="url(#bgGrad)" stroke="#162925" stroke-width="1.5"/>
+
+  <!-- Cyber Grid Background -->
+  <rect width="100%" height="100%" rx="16" fill="url(#cyberGrid)"/>
+
+  <!-- Corner Tech Brackets -->
+  <path d="M 24 45 L 24 24 L 45 24" fill="none" stroke="#00FFD1" stroke-width="2" opacity="0.6"/>
+  <path d="M 876 45 L 876 24 L 855 24" fill="none" stroke="#00FFD1" stroke-width="2" opacity="0.6"/>
+  <path d="M 24 195 L 24 216 L 45 216" fill="none" stroke="#00FFD1" stroke-width="2" opacity="0.6"/>
+  <path d="M 876 195 L 876 216 L 855 216" fill="none" stroke="#00FFD1" stroke-width="2" opacity="0.6"/>
+
+  <!-- Top Accent Bar -->
+  <line x1="120" y1="2" x2="780" y2="2" stroke="url(#tealGlowGrad)" stroke-width="3" filter="url(#neonGlow)" class="pulse"/>
+
+  <!-- Status Badge (Top Left) -->
+  <g transform="translate(45, 42)">
+    <rect x="0" y="0" width="168" height="24" rx="12" fill="#00FFD1" fill-opacity="0.08" stroke="#00FFD1" stroke-width="1" stroke-opacity="0.3"/>
+    <circle cx="14" cy="12" r="4" fill="#00FFA3" filter="url(#subtleGlow)" class="beacon"/>
+    <text x="26" y="16" fill="#00FFD1" font-size="10.5" font-weight="700" letter-spacing="1.5" class="mono">SYSTEM // ACTIVE</text>
+  </g>
+
+  <!-- Coordinates / Location (Top Right) -->
+  <g transform="translate(685, 42)">
+    <text x="170" y="16" text-anchor="end" fill="#5A7E77" font-size="10.5" font-weight="600" letter-spacing="1" class="mono">LOC // CHITTAGONG, BD</text>
+  </g>
+
+  <!-- Main Name Title -->
+  <g transform="translate(450, 108)">
+    <!-- Ambient Glow behind title -->
+    <text x="0" y="0" text-anchor="middle" fill="#00FFD1" font-size="38" font-weight="900" letter-spacing="4" filter="url(#neonGlow)" opacity="0.4" class="sans">
+      FURQAN AHMAD RUPOM
+    </text>
+    <text x="0" y="0" text-anchor="middle" fill="url(#textGrad)" font-size="38" font-weight="900" letter-spacing="4" class="sans">
+      FURQAN AHMAD RUPOM
+    </text>
+  </g>
+
+  <!-- Horizontal Tech Divider -->
+  <g transform="translate(250, 126)">
+    <line x1="0" y1="0" x2="400" y2="0" stroke="url(#tealGlowGrad)" stroke-width="1.5"/>
+    <polygon points="200,-3 205,0 200,3 195,0" fill="#00FFD1" filter="url(#subtleGlow)"/>
+  </g>
+
+  <!-- Subtitle / Role -->
+  <g transform="translate(450, 154)">
+    <text x="0" y="0" text-anchor="middle" fill="url(#subtextGrad)" font-size="14" font-weight="700" letter-spacing="3" class="mono">
+      BACKEND DEVELOPER • FULL STACK ENGINEER
+    </text>
+  </g>
+
+  <!-- Stack Pills Row (Bottom) -->
+  <g transform="translate(450, 192)">
+    <rect x="-310" y="-12" width="620" height="26" rx="6" fill="#061210" fill-opacity="0.8" stroke="#163832" stroke-width="1"/>
+    <text x="0" y="5" text-anchor="middle" fill="#8EABA4" font-size="11" font-weight="500" letter-spacing="1.2" class="mono">
+      <tspan fill="#00FFD1">Node.js</tspan> · <tspan fill="#00FFD1">NestJS</tspan> · <tspan fill="#00FFD1">FastAPI</tspan> · <tspan fill="#00FFD1">PostgreSQL</tspan> · <tspan fill="#00FFD1">Docker</tspan> · <tspan fill="#00FFA3">React</tspan> · <tspan fill="#00FFA3">TypeScript</tspan>
+    </text>
+  </g>
+
+  <!-- Bottom Glow Accent -->
+  <line x1="200" y1="238" x2="700" y2="238" stroke="url(#tealGlowGrad)" stroke-width="2" filter="url(#subtleGlow)" opacity="0.6"/>
+</svg>'''
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        f.write(svg)
+    print(f"Generated {OUTPUT_FILE}")
+
+
+if __name__ == "__main__":
+    generate_banner()

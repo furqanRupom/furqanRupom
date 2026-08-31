@@ -26,19 +26,21 @@ jobs:
       - name: Fetch contributions
         run: python scripts/fetch_contributions.py
 
-      - name: Render heatmap
-        run: python scripts/render_heatmap_svg.py
+      - name: Render heatmap and stats
+        run: |
+          python scripts/render_heatmap_svg.py
+          python scripts/make_stats_svg.py
 
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet contrib-heatmap.svg data/contributions.json || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet contrib-heatmap.svg github-stats.svg data/contributions.json || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add contrib-heatmap.svg data/contributions.json
+          git add contrib-heatmap.svg github-stats.svg data/contributions.json
           git commit -m "chore: update contribution profile art [skip ci]"
           git push
