@@ -9,7 +9,7 @@ def generate_info_card(output_path):
     data = [
         ("OS", "Ubuntu / Linux"),
         ("Host", "GitHub"),
-        ("Role", "Backend / Full Stack Developer"),
+        ("Role", "Full Stack / Backend Developer"),
         ("Experience", "~10 Months"),
         ("Location", "Feni, Chittagong, Bangladesh"),
         ("", ""),
@@ -53,7 +53,7 @@ def generate_info_card(output_path):
     svg_header += """
         </style>
     </defs>
-    <rect class="bg" width="100%" height="100%" />
+    <rect class="bg" width="100%" height="100%" rx="12" />
 
     <!-- Header -->
     <g transform="translate(15, 20)">

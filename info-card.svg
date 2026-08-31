@@ -26,7 +26,7 @@
             .r11 { animation-delay: 1.65s; }
         </style>
     </defs>
-    <rect class="bg" width="100%" height="100%" />
+    <rect class="bg" width="100%" height="100%" rx="12" />
 
     <!-- Header -->
     <g transform="translate(15, 20)">
@@ -48,7 +48,7 @@
         </g>
         <g class="row r2">
             <text x="0" y="60" class="text label">Role</text>
-            <text x="120" y="60" class="text value">Backend / Full Stack Developer</text>
+            <text x="120" y="60" class="text value">Full Stack / Backend Developer</text>
         </g>
         <g class="row r3">
             <text x="0" y="90" class="text label">Experience</text>

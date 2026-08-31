@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" width="100%" alt="Furqan Ahmad Rupom - Backend & Full Stack Developer" />
+<img src="./banner.svg" width="100%" alt="Furqan Ahmad Rupom - Full Stack & Backend Developer" />
 
 <br/><br/>
 
@@ -12,7 +12,7 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=1200&color=00FFD1&center=true&vCenter=true&multiline=false&repeat=true&width=620&height=36&lines=Building+scalable+backend+systems;Crafting+clean+REST+APIs;Turning+ideas+into+production+software;Learning.+Building.+Improving.;Backend+first.+Full+stack+when+needed." />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=1200&color=00FFD1&center=true&vCenter=true&multiline=false&repeat=true&width=620&height=36&lines=Building+scalable+backend+systems;Crafting+clean+REST+APIs;Turning+ideas+into+production+software;Learning.+Building.+Improving.;Full+stack+first.+Backend+deep." />
 
 </div>
 
@@ -35,10 +35,10 @@
 
 <div align="center">
 
-Backend Developer focused on building reliable APIs, scalable backend systems, and modern full-stack applications.
-I work primarily with **Node.js**, **NestJS**, **FastAPI**, **PostgreSQL**, **React**, **TypeScript**, and **Docker** — turning ideas into production-ready software.
+Full Stack &amp; Backend Developer focused on building reliable APIs, scalable backend systems, and modern web applications.
+I work primarily with **React**, **TypeScript**, **Node.js**, **NestJS**, **FastAPI**, **PostgreSQL**, and **Docker** — turning ideas into production-ready software.
 
-~10 months of professional backend development experience. Always learning, always building.
+~10 months of professional backend and full-stack development experience. Always learning, always building.
 
 </div>
 
