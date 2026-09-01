@@ -2,11 +2,7 @@
 
 <img src="./banner.svg" width="100%" alt="Furqan Ahmad Rupom - Full Stack & Backend Developer" />
 
-
-
 </div>
-
-
 
 <br/>
 
@@ -50,12 +46,11 @@ I work primarily with **React**, **TypeScript**, **Node.js**, **NestJS**, **Fast
 
 ### <img src="https://img.shields.io/badge/●-00FFD1?style=flat-square&logoColor=white" height="10"/> Do.Quests
 
+<img src="https://i.ibb.co/j93gXT23/device-mockup-1-5x-postspark-2026-05-21-00-51-50.png" width="100%" alt="Do.Quests cover" />
+
 > A quest management app focused on small tasks for task creators and task submitters, making task completion and rewards easier and smoother.
 
-<p>
-<img src="https://img.shields.io/badge/Full_Stack-0d1117?style=flat-square&logo=layers&logoColor=00FFD1"/>
-<img src="https://img.shields.io/badge/Quest_Management-0d1117?style=flat-square&logo=target&logoColor=00FFA3"/>
-</p>
+**Tech:** `Next.js` · `shadcn/ui` · `TypeScript` · `NestJS` · `MongoDB` · `@nestjs/mongo` · `class-validator` · `Stripe`
 
 [`Frontend`](https://github.com/furqanRupom/do-quest-frontend) · [`Backend`](https://github.com/furqanRupom/do-quest-backend)
 
@@ -64,12 +59,11 @@ I work primarily with **React**, **TypeScript**, **Node.js**, **NestJS**, **Fast
 
 ### <img src="https://img.shields.io/badge/●-00FFD1?style=flat-square&logoColor=white" height="10"/> Content Forge AI
 
+<img src="https://i.ibb.co/fzNqQ44x/device-mockup-1-5x-postspark-2026-07-02-01-17-43.png" width="100%" alt="Content Forge AI cover" />
+
 > An application built for content creators who want to create content easily and affordably.
 
-<p>
-<img src="https://img.shields.io/badge/Full_Stack-0d1117?style=flat-square&logo=layers&logoColor=00FFD1"/>
-<img src="https://img.shields.io/badge/AI_Content-0d1117?style=flat-square&logo=openai&logoColor=00FFA3"/>
-</p>
+**Tech:** `Next.js` · `shadcn/ui` · `TypeScript` · `Express.js` · `PostgreSQL` · `Prisma ORM` · `better-auth`
 
 [`Frontend`](https://github.com/furqanRupom/content-forge-frontend) · [`Backend`](https://github.com/furqanRupom/content-forge-backend)
 
@@ -80,12 +74,12 @@ I work primarily with **React**, **TypeScript**, **Node.js**, **NestJS**, **Fast
 
 ### <img src="https://img.shields.io/badge/●-00FFD1?style=flat-square&logoColor=white" height="10"/> Dise API
 
-> A FastAPI backend for a platform-owned car rental service.
-
 <p>
-<img src="https://img.shields.io/badge/Backend-0d1117?style=flat-square&logo=fastapi&logoColor=00FFD1"/>
+<img src="https://img.shields.io/badge/Backend_Only-0d1117?style=flat-square&logo=fastapi&logoColor=00FFD1"/>
 <img src="https://img.shields.io/badge/🚧_Under_Construction-0d1117?style=flat-square"/>
 </p>
+
+> A FastAPI backend for a platform-owned car rental service.
 
 **Tech:** `Python` · `FastAPI` · `SQLAlchemy` · `Alembic` · `PostgreSQL` · `Docker`
 
@@ -95,9 +89,19 @@ I work primarily with **React**, **TypeScript**, **Node.js**, **NestJS**, **Fast
 <td width="50%" valign="top">
 
 <div align="center">
-<br/><br/>
-<code>More projects coming soon...</code>
-<br/><br/><br/>
+
+<br/>
+
+```
+$ git log --oneline -1
+🔨 wip: next_project.ts
+
+$ status
+🟢 in active development
+```
+
+<br/>
+
 </div>
 
 </td>
