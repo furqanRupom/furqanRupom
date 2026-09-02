@@ -49,7 +49,7 @@
     <g transform="translate(24, 70)">
       <circle cx="12" cy="12" r="16" fill="#00FFD1" fill-opacity="0.08"/>
       <text x="12" y="16" text-anchor="middle" fill="#00FFD1" font-size="14">✦</text>
-      <text x="40" y="10" class="mono stat-val">395</text>
+      <text x="40" y="10" class="mono stat-val">396</text>
       <text x="40" y="26" class="mono stat-lbl">Total Contributions</text>
     </g>
 
@@ -65,7 +65,7 @@
     <g transform="translate(24, 136)">
       <circle cx="12" cy="12" r="16" fill="#00FFD1" fill-opacity="0.08"/>
       <text x="12" y="16" text-anchor="middle" fill="#00FFD1" font-size="14">🔥</text>
-      <text x="40" y="10" class="mono stat-val">79 <tspan font-size="12" fill="#7E9C96">days</tspan></text>
+      <text x="40" y="10" class="mono stat-val">80 <tspan font-size="12" fill="#7E9C96">days</tspan></text>
       <text x="40" y="26" class="mono stat-lbl">Current Streak</text>
     </g>
 
@@ -73,7 +73,7 @@
     <g transform="translate(230, 136)">
       <circle cx="12" cy="12" r="16" fill="#00FFA3" fill-opacity="0.08"/>
       <text x="12" y="16" text-anchor="middle" fill="#00FFA3" font-size="14">🏆</text>
-      <text x="40" y="10" class="mono stat-val">79 <tspan font-size="12" fill="#7E9C96">days</tspan></text>
+      <text x="40" y="10" class="mono stat-val">80 <tspan font-size="12" fill="#7E9C96">days</tspan></text>
       <text x="40" y="26" class="mono stat-lbl">Longest Streak</text>
     </g>
   </g>
