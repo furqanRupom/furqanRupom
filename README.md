@@ -70,41 +70,8 @@ I work primarily with **React**, **TypeScript**, **Node.js**, **NestJS**, **Fast
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
 
-### <img src="https://img.shields.io/badge/●-00FFD1?style=flat-square&logoColor=white" height="10"/> Dise API
 
-<p>
-<img src="https://img.shields.io/badge/Backend_Only-0d1117?style=flat-square&logo=fastapi&logoColor=00FFD1"/>
-<img src="https://img.shields.io/badge/🚧_Under_Construction-0d1117?style=flat-square"/>
-</p>
-
-> A FastAPI backend for a platform-owned car rental service.
-
-**Tech:** `Python` · `FastAPI` · `SQLAlchemy` · `Alembic` · `PostgreSQL` · `Docker`
-
-[`Repository`](https://github.com/furqanRupom/dise-api)
-
-</td>
-<td width="50%" valign="top">
-
-<div align="center">
-
-<br/>
-
-```
-$ git log --oneline -1
-🔨 wip: next_project.ts
-
-$ status
-🟢 in active development
-```
-
-<br/>
-
-</div>
-
-</td>
 </tr>
 </table>
 
