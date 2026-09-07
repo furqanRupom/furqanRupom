@@ -7,7 +7,7 @@ def generate_info_card(output_path):
     height = 550
 
     data = [
-        ("OS", "Ubuntu / Linux"),
+        ("OS", "Omarchy"),
         ("Host", "GitHub"),
         ("Role", "Full Stack / Backend Developer"),
         ("Experience", "~10 Months"),
