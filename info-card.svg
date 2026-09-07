@@ -40,7 +40,7 @@
     <g transform="translate(30, 80)">
         <g class="row r0">
             <text x="0" y="0" class="text label">OS</text>
-            <text x="120" y="0" class="text value">Ubuntu / Linux</text>
+            <text x="120" y="0" class="text value">Omarchy</text>
         </g>
         <g class="row r1">
             <text x="0" y="30" class="text label">Host</text>
