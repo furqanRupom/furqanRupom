@@ -255,13 +255,13 @@
   <rect x="494" y="79" width="11" height="11" rx="2" fill="#003d33" class="hm-cell" style="animation-delay: 0.436s"/>
   <rect x="494" y="93" width="11" height="11" rx="2" fill="#006b5a" class="hm-cell" style="animation-delay: 0.438s"/>
   <rect x="494" y="107" width="11" height="11" rx="2" fill="#006b5a" class="hm-cell" style="animation-delay: 0.440s"/>
-  <rect x="494" y="121" width="11" height="11" rx="2" fill="#006b5a" class="hm-cell" style="animation-delay: 0.442s"/>
-  <rect x="494" y="135" width="11" height="11" rx="2" fill="#006b5a" class="hm-cell" style="animation-delay: 0.444s"/>
-  <rect x="494" y="149" width="11" height="11" rx="2" fill="#003d33" class="hm-cell" style="animation-delay: 0.446s"/>
+  <rect x="494" y="121" width="11" height="11" rx="2" fill="#003d33" class="hm-cell" style="animation-delay: 0.442s"/>
+  <rect x="494" y="135" width="11" height="11" rx="2" fill="#003d33" class="hm-cell" style="animation-delay: 0.444s"/>
+  <rect x="494" y="149" width="11" height="11" rx="2" fill="#161b22" class="hm-cell" style="animation-delay: 0.446s"/>
   <rect x="508" y="65" width="11" height="11" rx="2" fill="#003d33" class="hm-cell" style="animation-delay: 0.448s"/>
-  <rect x="508" y="79" width="11" height="11" rx="2" fill="#003d33" class="hm-cell" style="animation-delay: 0.450s"/>
+  <rect x="508" y="79" width="11" height="11" rx="2" fill="#161b22" class="hm-cell" style="animation-delay: 0.450s"/>
   <rect x="508" y="93" width="11" height="11" rx="2" fill="#003d33" class="hm-cell" style="animation-delay: 0.452s"/>
-  <rect x="508" y="107" width="11" height="11" rx="2" fill="#003d33" class="hm-cell" style="animation-delay: 0.454s"/>
+  <rect x="508" y="107" width="11" height="11" rx="2" fill="#161b22" class="hm-cell" style="animation-delay: 0.454s"/>
   <rect x="508" y="121" width="11" height="11" rx="2" fill="#003d33" class="hm-cell" style="animation-delay: 0.456s"/>
   <rect x="508" y="135" width="11" height="11" rx="2" fill="#00FFD1" class="hm-cell" style="animation-delay: 0.458s"/>
   <rect x="508" y="149" width="11" height="11" rx="2" fill="#003d33" class="hm-cell" style="animation-delay: 0.460s"/>
@@ -400,13 +400,13 @@
   <rect x="774" y="149" width="11" height="11" rx="2" fill="#003d33" class="hm-cell" style="animation-delay: 0.726s"/>
   <rect x="788" y="65" width="11" height="11" rx="2" fill="#003d33" class="hm-cell" style="animation-delay: 0.728s"/>
   <rect x="788" y="79" width="11" height="11" rx="2" fill="#003d33" class="hm-cell" style="animation-delay: 0.730s"/>
-  <rect x="788" y="93" width="11" height="11" rx="2" fill="#003d33" class="hm-cell" style="animation-delay: 0.732s"/>
+  <rect x="788" y="93" width="11" height="11" rx="2" fill="#00a88a" class="hm-cell" style="animation-delay: 0.732s"/>
   <rect x="788" y="107" width="11" height="11" rx="2" fill="#161b22" class="hm-cell" style="animation-delay: 0.734s"/>
   <rect x="788" y="121" width="11" height="11" rx="2" fill="#161b22" class="hm-cell" style="animation-delay: 0.736s"/>
   <rect x="788" y="135" width="11" height="11" rx="2" fill="#161b22" class="hm-cell" style="animation-delay: 0.738s"/>
   <rect x="788" y="149" width="11" height="11" rx="2" fill="#161b22" class="hm-cell" style="animation-delay: 0.740s"/>
   <text x="20.0" y="188" class="hm-stat-label">Total</text>
-  <text x="20.0" y="206" class="hm-stat-value">395</text>
+  <text x="20.0" y="206" class="hm-stat-value">392</text>
   <text x="225.0" y="188" class="hm-stat-label">Current Streak</text>
   <text x="225.0" y="206" class="hm-stat-value">86d</text>
   <text x="430.0" y="188" class="hm-stat-label">Longest Streak</text>
