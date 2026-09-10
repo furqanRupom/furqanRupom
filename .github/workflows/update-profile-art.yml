@@ -2,7 +2,8 @@ name: Update Profile Art
 
 on:
   schedule:
-    - cron: "17 6 * * *" # Daily at 06:17 UTC
+    - cron: "37 12 * * *"
+      timezone: "Asia/Dhaka"
   workflow_dispatch:
 
 permissions:
@@ -42,7 +43,11 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet contrib-heatmap.svg github-stats.svg data/contributions.json || echo "changed=true" >> "$GITHUB_OUTPUT"
+          if git diff --quiet -- contrib-heatmap.svg github-stats.svg data/contributions.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Commit and push
         if: steps.changes.outputs.changed == 'true'
@@ -50,8 +55,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          git pull --rebase origin main
+
           git add contrib-heatmap.svg github-stats.svg data/contributions.json
           git commit -m "chore: update contribution profile art [skip ci]"
 
-          git pull --rebase origin main
           git push origin main
