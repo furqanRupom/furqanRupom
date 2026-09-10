@@ -3,7 +3,6 @@ name: Update Profile Art
 on:
   schedule:
     - cron: "37 12 * * *"
-      timezone: "Asia/Dhaka"
   workflow_dispatch:
 
 permissions:
