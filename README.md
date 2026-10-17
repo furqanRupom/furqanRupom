@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" width="100%" alt="Furqan Ahmad Rupom - Full Stack & Backend Developer" />
+<img src="./banner.png" width="100%" alt="Furqan Ahmad Rupom - Full Stack & Backend Developer" />
 
 </div>
 
