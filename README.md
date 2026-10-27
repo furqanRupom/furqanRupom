@@ -13,16 +13,8 @@
   </tr>
 </table>
 
-<br/><br/>
 
-<div align="center">
 
-Full Stack &amp; Backend Developer focused on building reliable APIs, scalable backend systems, and modern web applications.
-I work primarily with **React**, **TypeScript**, **Node.js**, **NestJS**, **FastAPI**, **PostgreSQL**, and **Docker** — turning ideas into production-ready software.
-
-~10 months of professional backend and full-stack development experience. Always learning, always building.
-
-</div>
 
 <br/><br/>
 
@@ -121,22 +113,9 @@ I work primarily with **React**, **TypeScript**, **Node.js**, **NestJS**, **Fast
 
 <br/><br/>
 
-<div align="center">
-<h3><code>What I'm Up To</code></h3>
-</div>
 
-<br/>
 
-<div align="center">
 
-| Area                   | Details                                                                                             |
-| :--------------------- | :-------------------------------------------------------------------------------------------------- |
-| **Currently Building** | Backend and full-stack applications with REST APIs, FastAPI, Node.js, NestJS, PostgreSQL and Docker |
-| **Learning**           | NestJS, C# / .NET, Redis, system design, advanced backend architecture, AI/LLM applications         |
-| **Exploring**          | Vector databases, AI-assisted development and modern backend architecture                           |
-| **Goal**               | Become a stronger backend/full-stack software engineer                                              |
-
-</div>
 
 <br/><br/>
 
@@ -152,65 +131,15 @@ I work primarily with **React**, **TypeScript**, **Node.js**, **NestJS**, **Fast
 
 </div>
 
-<br/><br/>
 
-<div align="center">
-<h3><code>GitHub Achievements</code></h3>
-<br/>
 
-<table align="center">
-  <tr>
-    <td align="center" width="160">
-      <a href="https://github.com/furqanRupom?tab=achievements">
-        <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="80" alt="Pull Shark" />
-        <br/>
-        <sub><b>Pull Shark</b></sub>
-      </a>
-    </td>
-    <td align="center" width="160">
-      <a href="https://github.com/furqanRupom?tab=achievements">
-        <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="80" alt="YOLO" />
-        <br/>
-        <sub><b>YOLO</b></sub>
-      </a>
-    </td>
-    <td align="center" width="160">
-      <a href="https://github.com/furqanRupom?tab=achievements">
-        <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="80" alt="Quickdraw" />
-        <br/>
-        <sub><b>Quickdraw</b></sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-</div>
 
 <br/><br/>
 
-<div align="center">
-<h3><code>Connect</code></h3>
-<br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=00FFD1)](https://github.com/furqanRupom)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=00FFD1)](https://www.linkedin.com/in/furqan-ahmad-rupom/)
-[![X](https://img.shields.io/badge/X-0d1117?style=for-the-badge&logo=x&logoColor=00FFD1)](https://x.com/ahmad288140)
-[![Instagram](https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=00FFD1)](https://www.instagram.com/fab_w00/)
-[![Facebook](https://img.shields.io/badge/Facebook-0d1117?style=for-the-badge&logo=facebook&logoColor=00FFD1)](https://www.facebook.com/fab.rupom)
-[![Gmail](https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=00FFD1)](mailto:furqanrupom978@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=00FFD1)](https://furqan-ahmad.vercel.app/)
 
-</div>
 
-<br/><br/>
 
-<div align="center">
-
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://furqan-ahmad.vercel.app/&bgcolor=0D0D0D&color=00FFD1&format=png" width="120"/>
-
-<br/>
-
-`Scan to visit my portfolio`
 
 </div>
 
