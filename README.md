@@ -145,6 +145,6 @@
 
 <br/><br/>
 
-<div align="center">
+<!-- <div align="center">
 <img src="./footer.svg" width="100%" alt="Footer banner" />
-</div>
+</div> -->
