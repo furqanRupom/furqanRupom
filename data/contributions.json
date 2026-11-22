@@ -1,51 +1,12 @@
 {
   "username": "furqanRupom",
-  "generated_at": "2026-11-21T19:45:28.555507+00:00Z",
-  "total_contributions": 441,
-  "current_streak": 160,
-  "longest_streak": 160,
+  "generated_at": "2026-11-22T19:56:57.822189+00:00Z",
+  "total_contributions": 437,
+  "current_streak": 161,
+  "longest_streak": 161,
   "best_day": "2025-12-25",
   "best_day_count": 4,
   "weeks": [
-    {
-      "days": [
-        {
-          "date": "2025-11-16",
-          "count": 3,
-          "level": 3
-        },
-        {
-          "date": "2025-11-17",
-          "count": 1,
-          "level": 1
-        },
-        {
-          "date": "2025-11-18",
-          "count": 1,
-          "level": 1
-        },
-        {
-          "date": "2025-11-19",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-11-20",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-11-21",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-11-22",
-          "count": 0,
-          "level": 0
-        }
-      ]
-    },
     {
       "days": [
         {
@@ -2071,6 +2032,15 @@
           "date": "2026-11-21",
           "count": 3,
           "level": 3
+        }
+      ]
+    },
+    {
+      "days": [
+        {
+          "date": "2026-11-22",
+          "count": 1,
+          "level": 1
         }
       ]
     }
